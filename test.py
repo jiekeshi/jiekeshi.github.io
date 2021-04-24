@@ -1,0 +1,3 @@
+import os
+
+TEST = {test}
