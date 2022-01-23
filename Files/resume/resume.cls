@@ -237,7 +237,7 @@
 \newcommand*{\homepage}[1]{\def\@homepageaddr{#1}}
 
 \newcommand*{\homepageinfo}[1]{%
-  \sociallink{\homepageSymbol}{#1}{#1}%
+  \sociallink{\homepageSymbol}{#1}{\otfont{#1}}%
 }
 
 % LinkedIn: \linkedin{<username>}
@@ -256,7 +256,7 @@
 \newcommand*{\email}[1]{\def\@emailaddr{#1}}
 
 \newcommand*{\emailinfo}[1]{%
-  \sociallink{\mailSymbol}{mailto:#1}{#1}
+  \sociallink{\mailSymbol}{mailto:#1}{\otfont{#1}}
 }
 
 % Render the name: \user{<firstanme>}{<lastname>}
