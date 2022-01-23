@@ -29,17 +29,18 @@
 
 \RequirePackage[%
   a4paper,%
-  margin=2.5cm,%
+  margin=2cm,%
 ]{geometry}
 \RequirePackage{xparse}
 \RequirePackage{etoolbox}
 \RequirePackage{fontspec}
-\RequirePackage{fontawesome}
+\RequirePackage{fontawesome5}
 \RequirePackage{parskip}  % auto adjust parskip and items skip
 \RequirePackage{titlesec}
 \RequirePackage{enumitem}
 \RequirePackage{setspace}
 \RequirePackage{array}
+\RequirePackage{url}
 \RequirePackage{multirow}
 \RequirePackage{fancyhdr}   %设置没有页眉页脚
 \fancyhf{} 
@@ -95,9 +96,11 @@
 
 \defaultfontfeatures{Mapping=tex-text}
 %\setmainfont[BoldFont={IBMPlexSerif-Medium.ttf}]{IBMPlexSerif-Text.ttf}
-%\newfontfamily\sectionef{IBMPlexSerif-Text.ttf}
-\setmainfont{Georgia}
+\newfontfamily{\myfont}{LinBiolinum_RB}[Extension = .otf]
+\newfontfamily{\otfont}{LinBiolinum_R}[Extension = .otf]
+\setmainfont[BoldFont={LinLibertine_RB.otf}]{LinLibertine_R.otf}
 
+\newcommand{\url@courierstyle}{\def\UrlFont{\otfont}}
 % Chinese setup
 \ifdef{\@zh}{
   \xeCJKsetup{PunctStyle=kaiming}
@@ -149,9 +152,9 @@
 
 % Line spacing
 \ifdef{\@zh}{
-  \linespread{1.25}
+  \linespread{1.1}
 }{
-  \linespread{1.15}
+  \linespread{1.1}
 }
 
 % Setup resume sections
@@ -282,7 +285,7 @@
   }{%
     \begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}
   }
-  \begin{tabular*}{16.5cm}{l@{\extracolsep{\fill}}r}
+  \begin{tabular*}{17.5cm}{l@{\extracolsep{\fill}}r}
     \multirow{2}*{\user{\@firstname}{\@lastname}} & \phoneinfo{\@phonenum}\\
      & \emailinfo{\@emailaddr} \\
      \homepageinfo{\@homepageaddr} & \addressinfo{\@addressname}
