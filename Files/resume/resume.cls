@@ -47,7 +47,7 @@
 
 \pagestyle{fancy}
 \renewcommand\headrulewidth{0pt}
-\cfoot{\thepage \ of\ 2}
+\cfoot{\thepage \ of\ 3}
 %\fancyfoot{\thepage\ of \pageref{LastPage}}%当前页 of 总页数
 %\pagestyle{plain}      %没有页眉，页脚放在中间
 \RequirePackage{makecell}  % multirowcell
