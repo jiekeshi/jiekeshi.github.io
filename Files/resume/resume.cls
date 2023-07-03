@@ -35,6 +35,7 @@
 \RequirePackage{etoolbox}
 \RequirePackage{fontspec}
 \RequirePackage{fontawesome5}
+\RequirePackage{academicons}
 \RequirePackage{parskip}  % auto adjust parskip and items skip
 \RequirePackage{titlesec}
 \RequirePackage{enumitem}
@@ -44,6 +45,12 @@
 \RequirePackage{multirow}
 \RequirePackage{fancyhdr}   %设置没有页眉页脚
 \fancyhf{} 
+
+\RequirePackage{stix}
+
+\RequirePackage{sectsty}
+\sectionfont{\centering}
+\subsectionfont{\centering}
 
 \pagestyle{fancy}
 \renewcommand\headrulewidth{0pt}
@@ -88,7 +95,6 @@
 }
 \RequirePackage{hyperref}
 
-%%
 %% General settings
 %%
 
@@ -98,7 +104,8 @@
 %\setmainfont[BoldFont={IBMPlexSerif-Medium.ttf}]{IBMPlexSerif-Text.ttf}
 \newfontfamily{\myfont}{LinBiolinum_RB}[Extension = .otf]
 \newfontfamily{\otfont}{LinBiolinum_R}[Extension = .otf]
-\setmainfont[BoldFont={LinLibertine_RB.otf}]{LinLibertine_R.otf}
+\newfontfamily{\itfont}{LinLibertine_RI}[Extension = .otf]
+\setmainfont[BoldFont={LinLibertine_RB.otf},ItalicFont={LinLibertine_RZI.otf}]{LinLibertine_R.otf}
 
 \newcommand{\url@courierstyle}{\def\UrlFont{\otfont}}
 % Chinese setup
@@ -118,7 +125,7 @@
 \newcommand*{\linkedinSymbol}{\faLinkedin}
 \newcommand*{\locationSymbol}{\faMapMarker}
 \newcommand*{\universitySymbol}{\faUniversity}
-\newcommand*{\homepageSymbol}{\faInfoCircle }
+\newcommand*{\homepageSymbol}{\faHome }
 
 % Color setup
 \ifdef{\@monochrome}%
@@ -160,7 +167,7 @@
 % Setup resume sections
 \titleformat{\section}{\Large\raggedright\bfseries}{}{0.2em}{}[\titlerule]
 \titlespacing{\section}{0em}{1ex}{1ex}  % <left><before><after>
-
+\newcommand{\bracketlabel}[1]{[#1]}
 % Configure list via 'enumitem'
 \setlist[itemize,1]{label=\faAngleRight, nosep, leftmargin=1em}
 \setlist[enumerate,1]{label=[\arabic*], nosep, leftmargin=1.8em}
@@ -203,24 +210,24 @@
 % Render a text with its symbol
 % Usage; \socialtext{<icon>}{<label>}
 \newcommand*{\socialtext}[2]{%
-  \mbox{\icon{#1} #2 \hspace{1em}}%
+  \mbox{\icon{#1} \color{accentcolor}{#2}}%
 }
 
 % Render a link with its symbol
 % Usage; \sociallink{<icon>}{<label>}
 \newcommand*{\sociallink}[3]{%
-  \mbox{\icon{#1} \link{#2}{#3} \hspace{1em}}%
+  \mbox{\icon{#1} \link{#2}{#3}}%
 }
 
 % Name: \name{<firstname>}{<lastname>}
 \newcommand*{\name}[2]{\def\@firstname{#1}\def\@lastname{#2}}
 % Photo: \photo{<diameter>}{<photo>}
 \newcommand{\photo}[2]{\def\@photo{#2}\def\@photodiameter{#1}}
-% Address
-\newcommand*{\address}[1]{\def\@addressname{#1}}
-% Birthday
+
+\newcommand*{\job}[1]{\def\@jobname{#1}}
+
 \newcommand*{\birthday}[1]{\socialtext{\birthdaySymbol}{#1}}
-% Place of birth
+
 \newcommand*{\home}[1]{\socialtext{\homeSymbol}{#1}}
 % Information
 \newcommand*{\info}[1]{\socialtext{\infoSymbol}{#1}}
@@ -235,10 +242,19 @@
 \newcommand*{\institution}[1]{\socialtext{\institutionSymbol}{#1}}
 
 \newcommand*{\homepage}[1]{\def\@homepageaddr{#1}}
-
+\newcommand*{\googlescholar}[1]{\def\@googlescholaraddr{#1}}
+\newcommand*{\googlescholarinfo}[1]{
+  \sociallink{\aiGoogleScholarSquare}{#1}{\otfont{#1}}%
+}
 \newcommand*{\homepageinfo}[1]{%
   \sociallink{\homepageSymbol}{#1}{\otfont{#1}}%
 }
+
+\newcommand*{\addressone}[1]{\def\@addressnameone{#1}}
+\newcommand*{\addressinfoone}[1]{\socialtext{\locationSymbol}{#1}}
+
+\newcommand*{\addresstwo}[1]{\def\@addressnametwo{#1}}
+\newcommand*{\addressinfotwo}[1]{\socialtext{}{#1}}
 
 % LinkedIn: \linkedin{<username>}
 \newcommand*{\linkedin}[1]{%
@@ -269,26 +285,17 @@
 
 \newcommand*{\phoneinfo}[1]{\color{accentcolor} \socialtext{\phoneSymbol}{#1}}
 
-\newcommand*{\addressinfo}[1]{\color{accentcolor} \socialtext{\locationSymbol}{#1}}
+\newcommand*{\jobinfo}[1]{\color{accentcolor}\socialtext{\faInfoCircle}{#1}}
 
 % Render resume header
 \newcommand*{\makeheader}{
-  \ifdef{\@photodiameter}{
-    \begin{minipage}{\@photodiameter}
-      \tikz\path[fill overzoom image={\@photo}]
-        circle[radius=0.5\linewidth];
-    \end{minipage}
-    \hspace{1em}
-  }{}
-  \ifundef{\@photodiameter}{%
-    \begin{minipage}{\linewidth}
-  }{%
-    \begin{minipage}{\dimexpr\linewidth-\@photodiameter-2em}
-  }
-  \begin{tabular*}{17.5cm}{l@{\extracolsep{\fill}}r}
-    \multirow{2}*{\user{\@firstname}{\@lastname}} & \phoneinfo{\@phonenum}\\
-     & \emailinfo{\@emailaddr} \\
-     \homepageinfo{\@homepageaddr} & \addressinfo{\@addressname}
+  \begin{minipage}{\linewidth}
+  \begin{tabular*}{\linewidth}{l@{\extracolsep{\fill}}r}
+    \multirow{2}*{\user{\@firstname}{\@lastname}}\vspace{0.2cm} & \\
+      &  \\
+      \jobinfo{\@jobname} & \emailinfo{\@emailaddr} \\
+      \addressinfoone{\@addressnameone} & \homepageinfo{\@homepageaddr} \\
+      \addressinfotwo{\@addressnametwo} & \googlescholarinfo{\@googlescholaraddr} \\
   \end{tabular*}
     %\centering\user{\@firstname}{\@lastname}
     %\centering\@socialinfo
@@ -299,9 +306,16 @@
 %% Sections
 %%
 
-% Title
 \newcommand*{\sectionTitle}[2]{%
-  \section{%
+  \section*{\centering%
+    \texorpdfstring%
+      {\color{accentcolor}{\icon{#2} \scshape\textbf{#1}}}%
+      {#1}%
+  }
+}
+
+\newcommand*{\subsectionTitle}[2]{%
+  \subsection*{\centering%
     \texorpdfstring%
       {\color{accentcolor}{\icon{#2} \scshape\textbf{#1}}}%
       {#1}%
