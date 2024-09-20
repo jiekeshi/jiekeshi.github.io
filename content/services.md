@@ -10,4 +10,4 @@ title: 💼 Services
 ## Reviewer
     - ACM Transactions on Software Engineering and Methodology (TOSEM)
     - Neurocomputing Journal
-    - Subreviewer for a number of conferences including ICSE 2022-2024, ASE 2022-2024, FSE 2023, etc.
+    - Subreviewer for conferences including ICSE 2022-2024, ASE 2022-2024, FSE 2023, etc.
