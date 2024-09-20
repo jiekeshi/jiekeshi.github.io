@@ -11,10 +11,14 @@
 
   <body>
     <nav>
-    <ul class="menu">
-      {{ range .Site.Menus.main }}
-      <li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
+      <ul class="menu">
+        {{ range .Site.Menus.main }}
+          <li>
+            <a href="{{ .URL | relURL }}" {{ if eq .Name "📜 CV" }}target="_blank"{{ end }}>
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
     <hr/>
     </nav>
