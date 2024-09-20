@@ -1,6 +1,7 @@
 baseURL = 'https://jiekeshi.github.io/'
 languageCode = 'en-us'
 title = "Jieke Shi's Homepage"
+publishDir = "docs"
 
 [menus]
 
@@ -33,8 +34,3 @@ title = "Jieke Shi's Homepage"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-
-[params]
-  footer="© Jieke Shi | Last Update: Sep 2024"
-
-

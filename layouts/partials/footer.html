@@ -1,9 +1,7 @@
-  <footer>
+<footer>
   {{ partial "foot_custom.html" . }}
-  {{ with .Site.Params.footer }}
   <hr/>
-  {{ replace . "{Year}" now.Year | markdownify}}
-  {{ end }}
-  </footer>
-  </body>
+  <p>© Jieke Shi | Last Update: {{ now.Format "Jan 2006" }}</p>
+</footer>
+</body>
 </html>
