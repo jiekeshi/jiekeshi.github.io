@@ -10,7 +10,7 @@ I am Jieke, a third-year Ph.D. candidate and a Research Engineer at the School o
 
 My research interest primarily lies in the intersection of Software Engineering (SE) and Artificial Intelligence (AI). Particularly, I focus on (1) **quality assurance of AI-enabled systems from an SE perspective**, and (2) **efficiency improvement of code models for real-world deployment**. My work has been published in high-quality SE venues such as ICSE, ASE, TSE, etc. I have won/been nominated for several research paper awards.
 
-Before joining SMU, I received a B.S. degree from Yangzhou University (advised by
+Before coming to SMU, I received a B.S. degree from Yangzhou University (advised by
 Professor Junwu Zhu). I also worked as a research assistant at the Institute of Computing Technology, China Academy of Sciences (advised by Dr. [Shi Wang](https://ictkc.github.io/)).
 
 ## 🗞️ Recent News
