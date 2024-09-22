@@ -1,5 +1,5 @@
 ---
-title: Home
+title: 🏠 About
 ---
 
 [<img src="images/photo_compressed.jpeg" style="max-width:35%;min-width:40px;float:left;border: 5px solid white; margin-right: 25px; margin-bottom: 10px;" alt="Jieke's Protrait" />](https://jiekeshi.github.io/)
