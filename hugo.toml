@@ -1,6 +1,6 @@
 baseURL = 'https://jiekeshi.github.io/'
 languageCode = 'en-us'
-title = "Jieke Shi's Homepage"
+title = "Jieke Shi | Singapore Management University"
 publishDir = "docs"
 
 [menus]
