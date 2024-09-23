@@ -19,8 +19,6 @@ title: 📖 Publications
 
 
 
-## Conference Papers
-
 <ol reversed>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
@@ -29,6 +27,15 @@ title: 📖 Publications
     </a></br>
     Chen Gong, Zhou Yang, Yunpeng Bai, Junda He, <b>Jieke Shi</b>, Kecen Li, Arunesh Sinha, Bowen Xu, Xinwen Hou, David Lo, and Tianhao Wang <br>
     2024 45th IEEE Symposium on Security and Privacy (S&P 2024, Main Track, 16 Pages) [<a href= "https://github.com/2019ChenGong/Offline_RL_Poisoner" target="_blank">Code</a>]
+</li>
+
+<li style="line-height: 1.5; margin-bottom: 1em;">
+    <a href="https://arxiv.org/pdf/2301.02496" target="_blank">
+    <!--<font color='red'>[Top-tier]</font>-->
+    <b>Stealthy Backdoor Attack for Code Models</b>
+</a></br>
+    Zhou Yang, Bowen Xu, Jie M. Zhang, Hong Jin Kang, <b>Jieke Shi</b>, Junda He, and David Lo <br>
+    IEEE Transactions on Software Engineering (TSE, 18 Pages) [<a href= "https://github.com/yangzhou6666/adversarial-backdoor-for-code-models" target="_blank">Code</a>]
 </li>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
@@ -131,18 +138,6 @@ title: 📖 Publications
 	Zhou Yang*, <u>Jieke Shi*</u>, Shaowei Wang, and David Lo </br>
 	2021 IEEE/ACM 36th International Conference on Automated Software Engineering (ASE 2021, Tool Demonstrations, *Equal contributions, 4 Pages) [<a href= "../pubs/IncBL_poster.pdf" target="_blank">Poster</a>][<a href= "https://github.com/soarsmu/IncBL" target="_blank">Code</a>][<a href= "https://youtu.be/G4gMuvlJSb0" target="_blank">Video</a>]
 </li>
-</ol>
 
-## Journal Papers
-
-<ol reversed>
-<li style="line-height: 1.5; margin-bottom: 1em;">
-    <a href="https://arxiv.org/pdf/2301.02496" target="_blank">
-    <!--<font color='red'>[Top-tier]</font>-->
-    <b>Stealthy Backdoor Attack for Code Models</b>
-</a></br>
-    Zhou Yang, Bowen Xu, Jie M. Zhang, Hong Jin Kang, <b>Jieke Shi</b>, Junda He, and David Lo <br>
-    IEEE Transactions on Software Engineering (TSE, 18 Pages) [<a href= "https://github.com/yangzhou6666/adversarial-backdoor-for-code-models" target="_blank">Code</a>]
-</li>
 </ol>
 

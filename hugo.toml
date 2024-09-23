@@ -34,3 +34,6 @@ publishDir = "docs"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[params]
+  enableFontAwesome = true
