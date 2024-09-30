@@ -3,6 +3,7 @@ title: 💼 Services
 ---
 
 ## Program Committee Member
+    - MSR 2025, Junior PC member
     - ICSE 2025, Shadow PC member
     - SEA4DQ 2024 workshop at FSE 2024, Web Co-Chair
     - MSR 2024, Junior PC member
