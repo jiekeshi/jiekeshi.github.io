@@ -22,6 +22,14 @@ title: 📖 Publications
 <ol reversed>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
+    <a href="https://arxiv.org/pdf/2310.01166" target="_blank">
+    <b>Gotcha! This Model Uses My Code! Evaluating Membership Leakage Risks in Code Models</b></b>
+    </a></br>
+    Zhou Yang, Zhipeng Zhao, Chenyu Wang, <b>Jieke Shi</b>, Dongsun Kim, DongGyun Han, and David Lo <br>
+    IEEE Transactions on Software Engineering (TSE, 16 Pages) [<a href= "" target="_blank">Code</a>]
+</li>
+
+<li style="line-height: 1.5; margin-bottom: 1em;">
     <a href="https://arxiv.org/pdf/2210.04688" target="_blank">
     <b>BAFFLE: Hiding Backdoors in Offline Reinforcement Learning Datasets</b></b>
     </a></br>

@@ -34,6 +34,7 @@ Professor Junwu Zhu). I also worked as a research assistant at the Institute of 
 
 ## 🗞️ Recent News
 
+- **<font color="#FF0000">[2024.10]</font>** 📝 One coauthored paper is accepted by **IEEE Transactions on Software Engineering (TSE)**!
 - **<font color="#FF0000">[2024.09]</font>** ⚖️ I will serve as a **Junior PC** member in **MSR 2025**!
 - **<font color="#FF0000">[2024.07]</font>** 😶‍🌫️ I will serve as a **Shadow PC** member in **ICSE 2025**!
 - **<font color="#FF0000">[2024.05]</font>** 📜 One paper is accepted by **Software Engineering 2030**!
