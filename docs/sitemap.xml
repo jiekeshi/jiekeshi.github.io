@@ -2,16 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/awards/</loc>
+    <loc>https://jiekeshi.github.io/awards/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://jiekeshi.github.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/services/</loc>
+    <loc>https://jiekeshi.github.io/services/</loc>
   </url><url>
-    <loc>http://localhost:1313/publications/</loc>
+    <loc>https://jiekeshi.github.io/publications/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://jiekeshi.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://jiekeshi.github.io/tags/</loc>
   </url>
 </urlset>

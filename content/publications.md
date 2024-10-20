@@ -22,6 +22,14 @@ title: 📖 Publications
 <ol reversed>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
+    <a href="https://arxiv.org/pdf/2302.00330" target="_blank">
+    <b>Prioritizing Speech Test Cases</b></b>
+    </a></br>
+    Zhou Yang, <b>Jieke Shi</b>, Muhammad Hilmi Asyrofi, Bowen Xu, Xin Zhou, DongGyun Han, and David Lo <br>
+    ACM Transactions on Software Engineering and Methodology (TOSEM, 28 Pages) [<a href= "https://github.com/yangzhou6666/ASRProphet" target="_blank">Code</a>]
+</li>
+
+<li style="line-height: 1.5; margin-bottom: 1em;">
     <a href="https://arxiv.org/pdf/2310.01166" target="_blank">
     <b>Gotcha! This Model Uses My Code! Evaluating Membership Leakage Risks in Code Models</b></b>
     </a></br>
