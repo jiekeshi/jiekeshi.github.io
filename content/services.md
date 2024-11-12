@@ -3,6 +3,7 @@ title: 💼 Services
 ---
 
 ## Program Committee Member
+    - GREENS 2025 workshop at ICSE 2025, PC member
     - MSR 2025, Junior PC member
     - ICSE 2025, Shadow PC member
     - SEA4DQ 2024 workshop at FSE 2024, Web Co-Chair

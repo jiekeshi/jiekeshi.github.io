@@ -34,6 +34,7 @@ Professor Junwu Zhu). I also worked as a research assistant at the Institute of 
 
 ## 🗞️ Recent News
 
+- **<font color="#FF0000">[2024.11]</font>** 🟩 I will serve as a **PC member** in GREENS 2025 workshop at ICSE 2025.
 - **<font color="#FF0000">[2024.11]</font>** 😺 Another paper also gets accepted by **TOSEM**!
 - **<font color="#FF0000">[2024.10]</font>** 💡 One paper is accepted by **ACM Transactions on Software Engineering and Methodology (TOSEM)**!
 - **<font color="#FF0000">[2024.10]</font>** 📝 One coauthored paper is accepted by **IEEE Transactions on Software Engineering (TSE)**!
