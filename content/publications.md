@@ -26,7 +26,7 @@ title: 📖 Publications
     <b>Efficient and Green Large Language Models for Software Engineering: Literature Review, Vision, and the Road Ahead</b></b>
     </a></br>
     <b>Jieke Shi</b>, Zhou Yang, and David Lo<br>
-    ACM Transactions on Software Engineering and Methodology (TOSEM, 21 Pages)
+    ACM Transactions on Software Engineering and Methodology (TOSEM, 23 Pages)
 </li>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
