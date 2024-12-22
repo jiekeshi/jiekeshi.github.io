@@ -27,10 +27,9 @@ title: 🏠 About
 
 I am Jieke, a third-year Ph.D. candidate and a Research Engineer at the School of Computing and Information Systems (SCIS), Singapore Management University (SMU). I am working with Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/) as my supervisor.
 
-My research interest primarily lies in the intersection of Software Engineering (SE) and Artificial Intelligence (AI). Particularly, I focus on (1) **quality assurance of AI-enabled systems from an SE perspective**, and (2) **efficiency improvement of code models for real-world deployment**. My work has been published in high-quality SE venues such as ICSE, ASE, TSE, etc. I have won/been nominated for several research paper awards.
+My research lies at the intersection of Software Engineering (SE) and Artificial Intelligence (AI), with a particular focus on (1) **quality assurance of AI-enabled systems from an SE perspective**, and (2) **efficiency improvement of code models for real-world deployment**. My work has been published in top-tier SE and security venues (e.g., ICSE, ASE, TSE, TOSEM, IEEE S&P), among which one paper received the Honorable Mention Award (ACSAC 2022), and one paper was nominated for the ACM SIGSOFT Distinguished Paper Award (ASE 2022).
 
-Before coming to SMU, I received a B.S. degree from Yangzhou University (advised by
-Professor Junwu Zhu). I also worked as a research assistant at the Institute of Computing Technology, China Academy of Sciences (advised by Dr. [Shi Wang](https://ictkc.github.io/)).
+Before coming to SMU, I received a B.S. degree from Yangzhou University (advised by Professor Junwu Zhu). I also worked as a research assistant at the Institute of Computing Technology, China Academy of Sciences (advised by Dr. [Shi Wang](https://ictkc.github.io/)).
 
 ## 🗞️ Recent News
 
