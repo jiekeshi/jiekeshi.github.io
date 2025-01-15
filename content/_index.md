@@ -33,6 +33,7 @@ Before coming to SMU, I received a B.S. degree from Yangzhou University (advised
 
 ## 🗞️ Recent News
 
+- **<font color="#FF0000">[2025.01]</font>** 🔥 One more paper is accepted by **TOSEM**!
 - **<font color="#FF0000">[2024.11]</font>** 🟩 I will serve as a **PC member** in GREENS 2025 workshop at ICSE 2025.
 - **<font color="#FF0000">[2024.11]</font>** 😺 Another paper also gets accepted by **TOSEM**!
 - **<font color="#FF0000">[2024.10]</font>** 💡 One paper is accepted by **ACM Transactions on Software Engineering and Methodology (TOSEM)**!
