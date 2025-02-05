@@ -33,6 +33,7 @@ Before coming to SMU, I received a B.S. degree from Yangzhou University (advised
 
 ## 🗞️ Recent News
 
+- **<font color="#FF0000">[2025.02]</font>** 🤑 My research has been awarded a grant from the **OpenAI Researcher Access Program**!
 - **<font color="#FF0000">[2025.01]</font>** 🔥 One more paper is accepted by **TOSEM**!
 - **<font color="#FF0000">[2024.11]</font>** 🟩 I will serve as a **PC member** in GREENS 2025 workshop at ICSE 2025.
 - **<font color="#FF0000">[2024.11]</font>** 😺 Another paper also gets accepted by **TOSEM**!
