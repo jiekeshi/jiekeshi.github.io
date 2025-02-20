@@ -25,7 +25,7 @@ title: 📖 Publications
     <b>Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs</b></b>
     </a></br>
     <b>Jieke Shi</b>, Zhou Yang, Junda He, Bowen Xu, Dongsun Kim, DongGyun Han, and David Lo<br>
-    ACM Transactions on Software Engineering and Methodology (TOSEM, 33 Pages) [<a href= "https://figshare.com/s/0c7fd68fd62cd5ecfd8c" target="_blank">Code</a>]
+    ACM Transactions on Software Engineering and Methodology (TOSEM, 33 Pages) [<a href= "https://github.com/soarsmu/Synthify" target="_blank">Code</a>]
 </li>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
