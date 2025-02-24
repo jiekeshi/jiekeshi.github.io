@@ -10,7 +10,7 @@ title: 🏠 About
   <!-- Google Scholar Icon and Link -->
   <div style="margin-right: 25px;">
     <i class="fas fa-graduation-cap" style="color: #1f4e9a;"></i>
-    <a href="https://scholar.google.com/citations?hl=en&user=wIbgZVoAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?hl=en&user=wIbgZVoAAAAJ" target="_blank">Google Scholar</a>
   </div>
 
   <!-- DBLP Icon and Link -->
