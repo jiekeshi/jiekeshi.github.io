@@ -25,10 +25,10 @@ publishDir = "docs"
     url = '/awards/'
     weight = 4
 
-  [[menus.main]]
-    name = '📜 CV'
-    url = '/CV.pdf'
-    weight = 5
+  # [[menus.main]]
+  #   name = '📜 CV'
+  #   url = '/CV.pdf'
+  #   weight = 5
 
 [markup]
   [markup.goldmark]
