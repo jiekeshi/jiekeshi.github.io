@@ -1,0 +1,57 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+\moderncvstyle{classic}
+\usepackage{xcolor}
+% ✅ 定义 ACM 官方紫色
+\definecolor[named]{ACMPurple}{cmyk}{0.55,1,0,0.15}
+\colorlet{color1}{ACMPurple}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.8]{geometry}
+\linespread{0.9}
+
+\usepackage{fontspec}
+\setmainfont{Linux Libertine O}
+\renewcommand*{\namefont}{\fontsize{34}{36}\itshape}
+
+\makeatletter
+\renewcommand*{\makecvtitle}{
+  \vspace*{-1.5em}
+  \begin{minipage}[c]{0.5\textwidth}
+    \begin{flushleft}
+      {\namefont \@firstname~\@familyname}\\[0.4em]
+      {\fontsize{12pt}{14pt}\bfseries\textcolor{gray}{\textit{\@email}}}
+    \end{flushleft}
+  \end{minipage}
+  \begin{minipage}[c]{0.5\textwidth}
+    \begin{flushright}
+      \textit{Website: }\href{https://jiekeshi.github.io/}{\textit{https://jiekeshi.github.io/}}\\
+      \textit{Google Scholar: }\href{}{\textit{}}
+    \end{flushright}
+  \end{minipage}
+  \vspace{1em}
+}
+\makeatother
+
+
+
+
+
+\name{Jieke}{\scshape{Shi}}
+\email{jiekeshi@smu.edu.sg}
+\homepage{https://jiekeshi.github.io}
+
+\begin{document}
+\makecvtitle
+
+Test
+
+\section{\textbf{Education}}
+\cvitem{2025}{Ph.D. in Electrical Engineering (Interactive Systems), Aalto University \& FCAI, Finland}
+\cvitem{}{Meta Research PhD Fellowship, Google Scholarship, Nokia Scholarship, etc.}
+\cvitem{}{Supervisors: Prof. Antti Oulasvirta and Prof. Vikas Garg}
+
+\cvitem{2024 (Jan–May)}{Visiting Ph.D. Student, HCII, Carnegie Mellon University (Supervisor: Prof. Jeffrey Bigham)}
+\cvitem{2020}{M.Sc. in Computer Science, University of Maryland, College Park (Supervisor: Prof. Matthias Zwicker)}
+\cvitem{2017}{Honors B.Sc. in Computer Science and Mathematics, University of Toronto (Supervisor: Prof. Gerald Penn)}
+
+\end{document}
