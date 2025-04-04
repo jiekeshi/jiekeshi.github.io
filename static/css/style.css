@@ -51,7 +51,7 @@ th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
 
 .scrollable-news {
-  max-height: 400px;
+  max-height: 350px;
   overflow-y: auto;
   padding-right: 10px;
   border: 1px solid #ddd;
