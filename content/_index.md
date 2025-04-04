@@ -33,33 +33,38 @@ Before coming to SMU, I received a B.S. degree from Yangzhou University (advised
 
 ## 🗞️ Recent News
 
-- **<font color="#FF0000">[2025.04]</font>** 🐮 One paper is accepted by **ACM Transactions on Software Engineering and Methodology (TOSEM)**!
-- **<font color="#FF0000">[2025.03]</font>** 🕵️ I will serve as a **PC member** in **COMPSAC 2025**.
-- **<font color="#FF0000">[2025.02]</font>** 🤑 My research has been awarded a grant from the **OpenAI Researcher Access Program**!
-- **<font color="#FF0000">[2025.01]</font>** 🔥 One more paper is accepted by **TOSEM**!
-- **<font color="#FF0000">[2024.11]</font>** 🟩 I will serve as a **PC member** in GREENS 2025 workshop at ICSE 2025.
-- **<font color="#FF0000">[2024.11]</font>** 😺 Another paper also gets accepted by **TOSEM**!
-- **<font color="#FF0000">[2024.10]</font>** 💡 One paper is accepted by **ACM Transactions on Software Engineering and Methodology (TOSEM)**!
-- **<font color="#FF0000">[2024.10]</font>** 📝 One coauthored paper is accepted by **IEEE Transactions on Software Engineering (TSE)**!
-- **<font color="#FF0000">[2024.09]</font>** ⚖️ I will serve as a **Junior PC** member in **MSR 2025**!
-- **<font color="#FF0000">[2024.07]</font>** 😶‍🌫️ I will serve as a **Shadow PC** member in **ICSE 2025**!
-- **<font color="#FF0000">[2024.05]</font>** 📜 One paper is accepted by **Software Engineering 2030**!
-- **<font color="#FF0000">[2024.03]</font>** 🎉 One coauthored paper is accepted by **IEEE S&P 2024**!
-- **<font color="#FF0000">[2024.01]</font>** 📝 One coauthored paper is accepted by **IEEE Transactions on Software Engineering (TSE)**!
-- **<font color="#FF0000">[2024.01]</font>** ✍️ Two coauthored papers are accepted by **Research Track of ICSE 2024**!
-- **<font color="#FF0000">[2023.12]</font>** 🏆 One paper is accepted by **SEIS Track of ICSE 2024**!
-- **<font color="#FF0000">[2023.11]</font>** 🎓 I pass my **Qualifying Exam**!
-- **<font color="#FF0000">[2023.11]</font>** 🌐 I will serve as the **Web Co-Chair** in the SEA4DQ 2024 workshop and a **Junior PC** in MSR 2024.
-- **<font color="#FF0000">[2023.08]</font>** 🏅 I receive the **SCIS Dean's List Award** and the **SMU Presidential Doctoral Fellowship**!
-- **<font color="#FF0000">[2023.03]</font>** 🧑‍🔬 One coauthored paper is accepted by **MSR 2023 Technical Track**!
-- **<font color="#FF0000">[2022.12]</font>** 🎖️ Our paper wins the **Honorable Mention Award** at ACSAC 2022!
-- **<font color="#FF0000">[2022.09]</font>** 📝 One coauthored paper is accepted by **ACSAC 2022 Technical Track**!
-- **<font color="#FF0000">[2022.09]</font>** 🌟 Our paper is **nominated for the ACM SIGSOFT Distinguished Paper Award** at ASE 2022!
-- **<font color="#FF0000">[2022.08]</font>** 🎓 I become a **PhD Student** at SMU. A new journey begins!
-- **<font color="#FF0000">[2022.07]</font>** 📚 Two papers are accepted by **ASE 2022 Research Papers Track**!
-- **<font color="#FF0000">[2021.12]</font>** 📝 One paper is accepted by **SANER 2022 ERA Track**!
-- **<font color="#FF0000">[2021.12]</font>** 🖊️ Two papers are accepted by **SANER 2022 RENE Track**!
-- **<font color="#FF0000">[2021.12]</font>** 🖋️ One coauthored paper is accepted by **ICSE 2022 Technical Track**!
-- **<font color="#FF0000">[2021.08]</font>** 📑 Two coauthored papers are accepted by **ICSME 2021 NIER Track**!
-- **<font color="#FF0000">[2021.07]</font>** 🔧 One coauthored paper is accepted by **ASE 2021 Tool Demonstrations Track**!
-- **<font color="#FF0000">[2021.06]</font>** 👨‍💻 Joined [Software Analytics Research Group](https://soarsmu.github.io/) of [Singapore Management University](https://www.smu.edu.sg/) as a **Research Engineer**.
+
+<div class="scrollable-news">
+<ul>
+  <li><b><font color="#FF0000">[2025.04]</font></b> 🐮 One paper is accepted by <b>ACM Transactions on Software Engineering and Methodology (TOSEM)</b>!</li>
+  <li><b><font color="#FF0000">[2025.03]</font></b> 🕵️ I will serve as a <b>PC member</b> in <b>COMPSAC 2025</b>.</li>
+  <li><b><font color="#FF0000">[2025.02]</font></b> 🤑 My research has been awarded a grant from the <b>OpenAI Researcher Access Program</b>!</li>
+  <li><b><font color="#FF0000">[2025.01]</font></b> 🔥 One more paper is accepted by <b>TOSEM</b>!</li>
+  <li><b><font color="#FF0000">[2024.11]</font></b> 🟩 I will serve as a <b>PC member</b> in GREENS 2025 workshop at ICSE 2025.</li>
+  <li><b><font color="#FF0000">[2024.11]</font></b> 😺 Another paper also gets accepted by <b>TOSEM</b>!</li>
+  <li><b><font color="#FF0000">[2024.10]</font></b> 💡 One paper is accepted by <b>ACM Transactions on Software Engineering and Methodology (TOSEM)</b>!</li>
+  <li><b><font color="#FF0000">[2024.10]</font></b> 📝 One coauthored paper is accepted by <b>IEEE Transactions on Software Engineering (TSE)</b>!</li>
+  <li><b><font color="#FF0000">[2024.09]</font></b> ⚖️ I will serve as a <b>Junior PC</b> member in <b>MSR 2025</b>!</li>
+  <li><b><font color="#FF0000">[2024.07]</font></b> 😶‍🌫️ I will serve as a <b>Shadow PC</b> member in <b>ICSE 2025</b>!</li>
+  <li><b><font color="#FF0000">[2024.05]</font></b> 📜 One paper is accepted by <b>Software Engineering 2030</b>!</li>
+  <li><b><font color="#FF0000">[2024.03]</font></b> 🎉 One coauthored paper is accepted by <b>IEEE S&P 2024</b>!</li>
+  <li><b><font color="#FF0000">[2024.01]</font></b> 📝 One coauthored paper is accepted by <b>IEEE Transactions on Software Engineering (TSE)</b>!</li>
+  <li><b><font color="#FF0000">[2024.01]</font></b> ✍️ Two coauthored papers are accepted by <b>Research Track of ICSE 2024</b>!</li>
+  <li><b><font color="#FF0000">[2023.12]</font></b> 🏆 One paper is accepted by <b>SEIS Track of ICSE 2024</b>!</li>
+  <li><b><font color="#FF0000">[2023.11]</font></b> 🎓 I pass my <b>Qualifying Exam</b>!</li>
+  <li><b><font color="#FF0000">[2023.11]</font></b> 🌐 I will serve as the <b>Web Co-Chair</b> in the SEA4DQ 2024 workshop and a <b>Junior PC</b> in MSR 2024.</li>
+  <li><b><font color="#FF0000">[2023.08]</font></b> 🏅 I receive the <b>SCIS Dean's List Award</b> and the <b>SMU Presidential Doctoral Fellowship</b>!</li>
+  <li><b><font color="#FF0000">[2023.03]</font></b> 🧑‍🔬 One coauthored paper is accepted by <b>MSR 2023 Technical Track</b>!</li>
+  <li><b><font color="#FF0000">[2022.12]</font></b> 🎖️ Our paper wins the <b>Honorable Mention Award</b> at ACSAC 2022!</li>
+  <li><b><font color="#FF0000">[2022.09]</font></b> 📝 One coauthored paper is accepted by <b>ACSAC 2022 Technical Track</b>!</li>
+  <li><b><font color="#FF0000">[2022.09]</font></b> 🌟 Our paper is <b>nominated for the ACM SIGSOFT Distinguished Paper Award</b> at ASE 2022!</li>
+  <li><b><font color="#FF0000">[2022.08]</font></b> 🎓 I become a <b>PhD Student</b> at SMU. A new journey begins!</li>
+  <li><b><font color="#FF0000">[2022.07]</font></b> 📚 Two papers are accepted by <b>ASE 2022 Research Papers Track</b>!</li>
+  <li><b><font color="#FF0000">[2021.12]</font></b> 📝 One paper is accepted by <b>SANER 2022 ERA Track</b>!</li>
+  <li><b><font color="#FF0000">[2021.12]</font></b> 🖊️ Two papers are accepted by <b>SANER 2022 RENE Track</b>!</li>
+  <li><b><font color="#FF0000">[2021.12]</font></b> 🖋️ One coauthored paper is accepted by <b>ICSE 2022 Technical Track</b>!</li>
+  <li><b><font color="#FF0000">[2021.08]</font></b> 📑 Two coauthored papers are accepted by <b>ICSME 2021 NIER Track</b>!</li>
+  <li><b><font color="#FF0000">[2021.07]</font></b> 🔧 One coauthored paper is accepted by <b>ASE 2021 Tool Demonstrations Track</b>!</li>
+  <li><b><font color="#FF0000">[2021.06]</font></b> 👨‍💻 Joined <a href="https://soarsmu.github.io/">Software Analytics Research Group</a> of <a href="https://www.smu.edu.sg/">Singapore Management University</a> as a <b>Research Engineer</b>.</li>
+</ul>
+</div>

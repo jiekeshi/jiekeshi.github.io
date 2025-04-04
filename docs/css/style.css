@@ -49,3 +49,23 @@ table {
 table thead th { border-bottom: 1px solid #ddd; }
 th, td { padding: 5px; }
 thead, tfoot, tr:nth-child(even) { background: #eee; }
+
+.scrollable-news {
+  max-height: 400px;
+  overflow-y: auto;
+  padding-right: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-top: 1em;
+  background-color: #f9f9f9;
+}
+
+/* 可选：让滚动条更好看 */
+.scrollable-news::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollable-news::-webkit-scrollbar-thumb {
+  background-color: #bbb;
+  border-radius: 4px;
+}
