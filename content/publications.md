@@ -17,9 +17,15 @@ title: 📖 Publications
   </div>
 </div>
 
-
-
 <ol reversed>
+<li style="line-height: 1.5; margin-bottom: 1em;">
+    <a href="https://arxiv.org/abs/2405.16746" target="_blank">
+    <b>Ecosystem of Large Language Models for Code</b></b>
+    </a></br>
+    Zhou Yang, <b>Jieke Shi</b>, Premkumar Devanbu, David Lo<br>
+    ACM Transactions on Software Engineering and Methodology (TOSEM, 27 Pages)
+</li>
+
 <li style="line-height: 1.5; margin-bottom: 1em;">
     <a href="https://arxiv.org/abs/2410.04986" target="_blank">
     <b>Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs</b></b>

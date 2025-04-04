@@ -33,6 +33,7 @@ Before coming to SMU, I received a B.S. degree from Yangzhou University (advised
 
 ## 🗞️ Recent News
 
+- **<font color="#FF0000">[2025.04]</font>** 🐮 One paper is accepted by **ACM Transactions on Software Engineering and Methodology (TOSEM)**!
 - **<font color="#FF0000">[2025.03]</font>** 🕵️ I will serve as a **PC member** in **COMPSAC 2025**.
 - **<font color="#FF0000">[2025.02]</font>** 🤑 My research has been awarded a grant from the **OpenAI Researcher Access Program**!
 - **<font color="#FF0000">[2025.01]</font>** 🔥 One more paper is accepted by **TOSEM**!
