@@ -1,0 +1,77 @@
+\documentclass[11pt,a4paper,roman,colorlinks=true,linkcolor=blue,urlcolor=blue, pdfborder={0 0 1}]{moderncv}
+\moderncvstyle{classic}
+\moderncvcolor{blue}
+\usepackage[normalem]{ulem}
+\usepackage{xcolor}
+
+\definecolor{mygray}{RGB}{66,66,66}
+
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.85]{geometry}
+\linespread{0.9}
+
+\usepackage{fontspec}
+\setmainfont{Linux Biolinum O}
+\renewcommand*{\namefont}{\fontsize{34}{36}\itshape}
+% \renewcommand*{\titlefont}{\fontsize{14}{18}\itshape}
+
+\makeatletter
+
+\renewcommand*{\phone}[1]{\def\@phone{#1}}
+
+\renewcommand*{\makecvtitle}{
+  \begin{minipage}[c]{0.6\textwidth}
+    \raggedright
+    {\fontsize{28pt}{32pt}\bfseries\textcolor{mygray}{ \@firstname~\@familyname}}\\[0.5em]
+    {\large\textcolor{mygray}{\@title}}%
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[c]{0.415\textwidth}
+    \raggedleft
+    \ifdefined\@extrainfo
+      {\bfseries Address:}{ \@extrainfo}\\ [0.41em]
+    \fi
+    \ifdefined\@homepage
+      {\bfseries Website:}
+      \href{\@homepage}{\uline{\@homepage}}\\[0.41em]
+    \fi
+    \ifdefined\@email
+      {\bfseries E-Mail:} \href{mailto:\@email}{\uline{\@email}}\\ [0.41em]
+    \fi
+    % \ifdefined\@phone
+    % {\bfseries Phone:}{ \@phone}
+    % \fi
+  \end{minipage}
+  \vspace{2em}
+}
+\makeatother
+
+\name{Jieke}{Shi}
+\title{CS Ph.D. Candidate \textbar{} Research Engineer \\ Singapore Management University}
+\email{jiekeshi@smu.edu.sg}
+% \phone{(+65) 8691 0985}
+\homepage{https://jiekeshi.github.io}
+\extrainfo{80 Stamford Road, \\ Singapore 178902}
+
+\begin{document}
+\makecvtitle
+
+\section{\textbf{\uppercase{Research Interests}}}
+\cvitem{}{Human-Computer Interaction, Computer Graphics, Machine Learning, Computer Vision, and Computational Photography.}
+\cvitem{}{I am interested in building systems that leverage machine learning to improve the user experience of interactive systems.}
+\cvitem{}{I am also interested in the intersection of computer graphics and machine learning, including generative models for 3D content creation.}
+\cvitem{}{I am also interested in the intersection of computer graphics and machine learning, including generative models for 3D content creation.}
+
+\section{\textbf{\uppercase{Education}}}
+\cvitem{2025}{Ph.D. in Electrical Engineering (Interactive Systems), Aalto University \& FCAI, Finland}
+\cvitem{}{Meta Research PhD Fellowship, Google Scholarship, Nokia Scholarship, etc.}
+\cvitem{}{Supervisors: Prof. Antti Oulasvirta and Prof. Vikas Garg}
+
+\cvitem{2020}{M.Sc. in Computer Science, University of Maryland, College Park (Supervisor: Prof. Matthias Zwicker)}
+
+\section{\textbf{\uppercase{Employment}}}
+\cventry{2023--Present}{Research Engineer}{Singapore Management University}{}{}{}
+\cventry{2022--2023}{Research Intern}{Meta Reality Labs}{}{}{Worked on the research and development of a new generation of AR/VR devices.}
+\cventry{2021--2022}{Research Intern}{Google Research}{}{}{Worked on the research and development of a new generation of AR/VR devices.}
+
+\end{document}

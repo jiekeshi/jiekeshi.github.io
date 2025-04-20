@@ -22,7 +22,7 @@ title: 📖 Publications
     <a href="https://arxiv.org/abs/2405.16746" target="_blank">
     <b>Ecosystem of Large Language Models for Code</b></b>
     </a></br>
-    Zhou Yang, <b>Jieke Shi</b>, Premkumar Devanbu, David Lo<br>
+    Zhou Yang, <b>Jieke Shi (Corresponding)</b>, Premkumar Devanbu, David Lo<br>
     ACM Transactions on Software Engineering and Methodology (TOSEM, 27 Pages)
 </li>
 
@@ -172,8 +172,8 @@ title: 📖 Publications
 <li style="line-height: 1.5; margin-bottom: 1em;">
 	<a href="../pubs/incbl.pdf" target="_blank">
 	<b>IncBL: Incremental Bug Localization</b></a> </br>
-	Zhou Yang*, <b>Jieke Shi*</b>, Shaowei Wang, and David Lo </br>
-	2021 IEEE/ACM 36th International Conference on Automated Software Engineering (ASE 2021, Tool Demonstrations, *Equal contributions, 4 Pages) [<a href= "../pubs/IncBL_poster.pdf" target="_blank">Poster</a>][<a href= "https://github.com/soarsmu/IncBL" target="_blank">Code</a>][<a href= "https://youtu.be/G4gMuvlJSb0" target="_blank">Video</a>]
+	Zhou Yang, <b>Jieke Shi (Co-1st)</b>, Shaowei Wang, and David Lo </br>
+	2021 IEEE/ACM 36th International Conference on Automated Software Engineering (ASE 2021, Tool Demonstrations, 4 Pages) [<a href= "../pubs/IncBL_poster.pdf" target="_blank">Poster</a>][<a href= "https://github.com/soarsmu/IncBL" target="_blank">Code</a>][<a href= "https://youtu.be/G4gMuvlJSb0" target="_blank">Video</a>]
 </li>
 
 </ol>

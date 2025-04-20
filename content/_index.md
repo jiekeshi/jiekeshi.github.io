@@ -19,13 +19,20 @@ title: 🏠 About
     <a href="https://dblp.uni-trier.de/pid/246/7302.html" target="_blank">DBLP</a>
   </div>
 
-<div>
+  <!-- DBLP Icon and Link -->
+  <div style="margin-right: 25px;">
     <i class="fab fa-github" style="color: #1f4e9a;"></i>
     <a href="https://github.com/jiekeshi" target="_blank">GitHub</a>
   </div>
+
+<div>
+    <i class="fab fa-weibo" style="color: #1f4e9a;"></i>
+    <a href="https://weibo.com/u/6030362450" target="_blank">Weibo</a>
+  </div>
+  </div>
 </div>
 
-I am Jieke, a third-year Ph.D. candidate and a Research Engineer at the School of Computing and Information Systems (SCIS), Singapore Management University (SMU). I am working with Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/) as my supervisor.
+I am Jieke, a third-year Ph.D. candidate and a Research Engineer at the School of Computing and Information Systems (SCIS), Singapore Management University (SMU). I am working with Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/), an ACM/IEEE/ASE Fellow, as my supervisor.
 
 My research lies at the intersection of Software Engineering (SE) and Artificial Intelligence (AI), with a particular focus on (1) **quality assurance of AI-enabled systems from an SE perspective**, and (2) **efficiency improvement of code models for real-world deployment**. My work has been published in top-tier SE and security venues (e.g., ICSE, ASE, TSE, TOSEM, IEEE S&P), among which one paper received the Honorable Mention Award (ACSAC 2022), and one paper was nominated for the ACM SIGSOFT Distinguished Paper Award (ASE 2022).
 
