@@ -2,7 +2,7 @@
 title: 💼 Services
 ---
 
-## Program Committee Member
+## Program Committee
     - COMPSAC 2025, PC member
     - GREENS 2025 workshop at ICSE 2025, PC member
     - MSR 2025, Junior PC member
