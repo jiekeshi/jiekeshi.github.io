@@ -19,7 +19,7 @@ title: 📖 Publications
 
 <ol reversed>
 <li style="line-height: 1.5; margin-bottom: 1em;">
-    <a href="https://arxiv.org/abs/2405.16746" target="_blank">
+    <a href="https://doi.org/10.1145/3731753" target="_blank">
     <b>Ecosystem of Large Language Models for Code</b></b>
     </a></br>
     Zhou Yang, <b>Jieke Shi (Corresponding)</b>, Premkumar Devanbu, David Lo<br>
@@ -27,7 +27,7 @@ title: 📖 Publications
 </li>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
-    <a href="https://arxiv.org/abs/2410.04986" target="_blank">
+    <a href="https://doi.org/10.1145/3715105" target="_blank">
     <b>Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs</b></b>
     </a></br>
     <b>Jieke Shi</b>, Zhou Yang, Junda He, Bowen Xu, Dongsun Kim, DongGyun Han, and David Lo<br>
@@ -35,7 +35,7 @@ title: 📖 Publications
 </li>
 
 <li style="line-height: 1.5; margin-bottom: 1em;">
-    <a href="https://arxiv.org/pdf/2404.04566" target="_blank">
+    <a href="https://doi.org/10.1145/3708525" target="_blank">
     <b>Efficient and Green Large Language Models for Software Engineering: Literature Review, Vision, and the Road Ahead</b></b>
     </a></br>
     <b>Jieke Shi</b>, Zhou Yang, and David Lo<br>
