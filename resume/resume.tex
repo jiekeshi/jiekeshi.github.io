@@ -1,6 +1,11 @@
+% !TeX program = lualatex
 \documentclass[11pt,a4paper,roman,colorlinks=true,linkcolor=blue,urlcolor=blue, pdfborder={0 0 1}]{moderncv}
 \moderncvstyle{classic}
 \moderncvcolor{blue}
+\usepackage{emoji}
+\usepackage{changepage}
+\usepackage{enumitem}
+\setlength{\hintscolumnwidth}{3cm}
 \usepackage[normalem]{ulem}
 \usepackage{xcolor}
 
@@ -12,6 +17,7 @@
 
 \usepackage{fontspec}
 \setmainfont{Linux Biolinum O}
+
 \renewcommand*{\namefont}{\fontsize{34}{36}\itshape}
 % \renewcommand*{\titlefont}{\fontsize{14}{18}\itshape}
 
@@ -22,25 +28,23 @@
 \renewcommand*{\makecvtitle}{
   \begin{minipage}[c]{0.6\textwidth}
     \raggedright
-    {\fontsize{28pt}{32pt}\bfseries\textcolor{mygray}{ \@firstname~\@familyname}}\\[0.5em]
+    {\fontsize{28pt}{36pt}\bfseries\textcolor{mygray}{ \@firstname~\@familyname}}\\[0.65em]
     {\large\textcolor{mygray}{\@title}}%
   \end{minipage}%
   \hfill
-  \begin{minipage}[c]{0.415\textwidth}
-    \raggedleft
+  \begin{minipage}[c]{0.385\textwidth}
+    \small
+    \raggedright
     \ifdefined\@extrainfo
-      {\bfseries Address:}{ \@extrainfo}\\ [0.41em]
+      {\bfseries Address:}{ \@extrainfo}\\ [1em]
+    \fi
+    \ifdefined\@email
+      {\bfseries E-Mail:} \href{mailto:\@email}{\uline{\@email}}\\ [1em]
     \fi
     \ifdefined\@homepage
       {\bfseries Website:}
-      \href{\@homepage}{\uline{\@homepage}}\\[0.41em]
+      \href{\@homepage}{\uline{\@homepage}}\\[0.64em]
     \fi
-    \ifdefined\@email
-      {\bfseries E-Mail:} \href{mailto:\@email}{\uline{\@email}}\\ [0.41em]
-    \fi
-    % \ifdefined\@phone
-    % {\bfseries Phone:}{ \@phone}
-    % \fi
   \end{minipage}
   \vspace{2em}
 }
@@ -51,27 +55,160 @@
 \email{jiekeshi@smu.edu.sg}
 % \phone{(+65) 8691 0985}
 \homepage{https://jiekeshi.github.io}
-\extrainfo{80 Stamford Road, \\ Singapore 178902}
+\extrainfo{College of Integrative Studies, B2, RISE Center, 10 Canning Rise, Singapore 179873}
 
 \begin{document}
 \makecvtitle
 
 \section{\textbf{\uppercase{Research Interests}}}
-\cvitem{}{Human-Computer Interaction, Computer Graphics, Machine Learning, Computer Vision, and Computational Photography.}
-\cvitem{}{I am interested in building systems that leverage machine learning to improve the user experience of interactive systems.}
-\cvitem{}{I am also interested in the intersection of computer graphics and machine learning, including generative models for 3D content creation.}
-\cvitem{}{I am also interested in the intersection of computer graphics and machine learning, including generative models for 3D content creation.}
+
+\cvitem{}{Software Engineering, Large Language Models of Code, Program Synthesis, AI Testing}
+\vspace{0.5em}
+
+\cvitem{}{I design and implement \textbf{automated synthesis}-assisted methods for validating the \textbf{safety} of AI-enabled software and enhancing the \textbf{efficiency} of large language models for code.}
+\vspace{0.2em}
 
 \section{\textbf{\uppercase{Education}}}
-\cvitem{2025}{Ph.D. in Electrical Engineering (Interactive Systems), Aalto University \& FCAI, Finland}
-\cvitem{}{Meta Research PhD Fellowship, Google Scholarship, Nokia Scholarship, etc.}
-\cvitem{}{Supervisors: Prof. Antti Oulasvirta and Prof. Vikas Garg}
 
-\cvitem{2020}{M.Sc. in Computer Science, University of Maryland, College Park (Supervisor: Prof. Matthias Zwicker)}
+\cventry{\small{Aug 2022 - Present}}{\textbf{Singapore Management University}}{\textup{Ph.D. Candidate in Computer Science}}
+{}{}{Supervisor: \textbf{ACM/IEEE/ASE Fellow, OUB Chair Professor David Lo}}
+\vspace{0.5em}
+\cventry{\small{Aug 2016 - Jun 2020}}{\textbf{Yangzhou University}}{\textup{B.Eng. in Electronic Engineering}}{}{}{}
+\vspace{0.2em}
+
 
 \section{\textbf{\uppercase{Employment}}}
-\cventry{2023--Present}{Research Engineer}{Singapore Management University}{}{}{}
-\cventry{2022--2023}{Research Intern}{Meta Reality Labs}{}{}{Worked on the research and development of a new generation of AR/VR devices.}
-\cventry{2021--2022}{Research Intern}{Google Research}{}{}{Worked on the research and development of a new generation of AR/VR devices.}
+\cventry{\small{Jun 2021 - Present}}{\textbf{Singapore Management University}}{\textup{Research Engineer}}
+{}{}{Working on the research and development of}
+\vspace{0.5em}
+\cventry{\small{Jul 2020 - Apr 2021}}{Chinese Academy of Sciences, Institute of Computing}{\textup{Research Assistant Intern}}
+{}{}{Working on the research and development of Data2Text, a system that generates text from data using a neural network model.}
+\vspace{0.2em}
+
+\section{\textbf{\uppercase{Publications}}}
+
+\cvitem{}{Note: In software engineering, ICSE and ASE are recognized as top-tier conferences, and TOSEM and TSE are top-tier journals (CORE A*); MSR, ICSME, and SANER are prominent conferences covering software mining, analysis, and evolution (CORE A). In security, S\&P is a top-tier conference (CORE A*), while ACSAC is a leading venue with a focus on security applications (CORE A).}
+\cvitem{}{
+  \begin{tabular*}{\linewidth}{c@{\extracolsep{\fill}}c c}
+    \small
+    [C]: Full Paper in Conference & \small [J]: Full Paper in Journal &     \small [S]: Short Paper \\
+  \end{tabular*}
+}
+
+\cvitem{[J.6]}{Zhou Yang, \textbf{Jieke Shi} (\emoji{e-mail}Corr.), Premkumar Devanbu, David Lo. (2025)
+\textit{``Ecosystem of Large Language Models for Code''}.
+\newline{\textbf{TOSEM} - ACM Transactions on Software Engineering and Methodology}.
+[\href{https://doi.org/10.1145/3731753}{PDF}]
+}
+
+\cvitem{[J.2]}{\textbf{Jieke Shi}, Zhou Yang, Junda He, Bowen Xu, Dongsun Kim, DongGyun Han, David Lo.
+``Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs.''
+\textit{ACM Transactions on Software Engineering and Methodology (TOSEM, 33 pages), CORE A*}.
+[\href{https://doi.org/10.1145/3715105}{PDF}]
+[\href{https://github.com/soarsmu/Synthify}{Code}]
+}
+
+\cvitem{[J.1]}{\textbf{Jieke Shi}, Zhou Yang, David Lo.
+``Efficient and Green Large Language Models for Software Engineering: Literature Review, Vision, and the Road Ahead.''
+\textit{ACM Transactions on Software Engineering and Methodology (TOSEM, 23 pages), CORE A*}.
+[\href{https://doi.org/10.1145/3708525}{PDF}]
+}
+
+\cvitem{[C.8]}{Zhou Yang, \textbf{Jieke Shi}, Muhammad Hilmi Asyrofi, Bowen Xu, Xin Zhou, DongGyun Han, David Lo.
+``Prioritizing Speech Test Cases.''
+\textit{ACM Transactions on Software Engineering and Methodology (TOSEM, 28 pages), CORE A*}.
+[\href{https://arxiv.org/pdf/2302.00330}{PDF}]
+[\href{https://github.com/yangzhou6666/ASRProphet}{Code}]
+}
+
+\cvitem{[J.0]}{Zhou Yang, Zhipeng Zhao, Chenyu Wang, \textbf{Jieke Shi}, Dongsun Kim, DongGyun Han, David Lo.
+``Gotcha! This Model Uses My Code! Evaluating Membership Leakage Risks in Code Models.''
+\textit{IEEE Transactions on Software Engineering (TSE, 16 pages), CORE A*}.
+[\href{https://arxiv.org/pdf/2310.01166}{PDF}]
+}
+
+\cvitem{[C.7]}{\textbf{Jieke Shi}, Zhou Yang, Hong Jin Kang, Bowen Xu, Junda He, David Lo.
+``Greening Large Language Models of Code.''
+\textit{2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE 2024, SEIS Track, 12 pages), CORE A*}.
+[\href{https://arxiv.org/pdf/2309.04076}{PDF}]
+[\href{https://github.com/soarsmu/Avatar}{Code}]
+}
+
+\cvitem{[C.6]}{Junda He, Zhou Yang, \textbf{Jieke Shi}, Chengran Yang, Kisub Kim, Bowen Xu, Xin Zhou, David Lo.
+``Curiosity-Driven Testing for Sequential Decision-Making Process.''
+\textit{2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE 2024, Research Track, 13 pages), CORE A*}.
+[\href{https://dl.acm.org/doi/pdf/10.1145/3597503.3639149}{PDF}]
+[\href{https://figshare.com/s/6d7a984f6ef797904d4b}{Code}]
+}
+
+\cvitem{[C.5]}{Zhou Yang, Zhipeng Zhao, Chenyu Wang, \textbf{Jieke Shi}, Dongsun Kim, DongGyun Han, David Lo.
+``Unveiling Memorization in Code Models.''
+\textit{2024 IEEE/ACM 46th International Conference on Software Engineering (ICSE 2024, Research Track, 13 pages), CORE A*}.
+[\href{https://arxiv.org/pdf/2308.09932}{PDF}]
+[\href{https://github.com/yangzhou6666/Privacy-in-Code-Models}{Code}]
+}
+
+\cvitem{[C.4]}{Zhou Yang, Chenyu Wang, \textbf{Jieke Shi}, Thong Hoang, Pavneet Kochhar, Qinghua Lu, Zhenchang Xing, David Lo.
+``What Do Users Ask in Open-Source AI Repositories? An Empirical Study of GitHub Issues.''
+\textit{2023 IEEE/ACM 20th International Conference on Mining Software Repositories (MSR 2023, Technical Track, 12 pages), CORE A}.
+[\href{https://arxiv.org/pdf/2303.09795.pdf}{PDF}]
+[\href{https://github.com/soarsmu/Mining-AI-repos-issues}{Code}]
+}
+
+\cvitem{[C.3]}{Chen Gong, Zhou Yang, Yunpeng Bai, \textbf{Jieke Shi}, Arunesh Sinha, Bowen Xu, David Lo, Xinwen Hou, Guoliang Fan.
+``Curiosity-Driven and Victim-Aware Adversarial Policies.''
+\textit{2022 39th Annual Computer Security Applications Conference (ACSAC 2022, Technical Paper, Honorable Mention Award, 15 pages), CORE A}.
+[\href{../pubs/ACSAC_2022.pdf}{PDF}]
+[\href{https://github.com/soarsmu/Curiosity_in_Adversarial_Policy}{Code}]
+}
+
+\cvitem{[C.2]}{\textbf{Jieke Shi}, Zhou Yang, Bowen Xu, Hong Jin Kang, David Lo.
+``Compressing Pre-trained Models of Code into 3 MB.''
+\textit{2022 IEEE/ACM 37th International Conference on Automated Software Engineering (ASE 2022, Research Paper, Nominated for ACM SIGSOFT Distinguished Paper Award, 12 pages), CORE A*}.
+[\href{../pubs/ASE_2022.pdf}{PDF}]
+[\href{../pubs/ASE_2022_poster.pdf}{Poster}]
+[\href{https://github.com/soarsmu/Compressor}{Code}]
+}
+
+\cvitem{[C.1]}{\textbf{Jieke Shi}, Zhou Yang, Junda He, Bowen Xu, David Lo.
+``Can Identifier Splitting Improve Open-Vocabulary Language Model of Code?''
+\textit{2022 IEEE 29th International Conference on Software Analysis, Evolution and Reengineering (SANER 2022, ERA Track, 5 pages), CORE A}.
+[\href{../pubs/SANER_2022_1.pdf}{PDF}]
+[\href{../pubs/SANER_poster.pdf}{Poster}]
+[\href{https://github.com/soarsmu/CodeNLM.git}{Code}]
+[\href{https://youtu.be/wFB_w6gHgcI}{Video}]
+}
+
+
+
+% \begin{adjustwidth}{3cm}{0.7cm}
+% \begin{enumerate}[itemsep=0.1cm]
+%   \item[{[C7]}] \underline{\textbf{Jieke Shi}}, Zhou Yang, Bowen Xu, Hong Jin Kang, and David Lo. ``Compressing Pre-trained Models of Code into 3 MB." \textit{The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE 2022, CORE Ranking A*)}. [\href{https://jiekeshi.github.io/Files/ASE_2022.pdf}{PDF}][\href{https://doi.org/10.1145/3551349.3556964}{DOI}][\href{https://github.com/soarsmu/Compressor}{Code}]
+%   \emoji{trophy}\textcolor{red}{\ \textit{Nominated for ACM SIGSOFT Distinguished Paper Award}}
+
+%   \item[{[C6]}] Chen Gong, Zhou Yang, Yunpeng Bai, \underline{\textbf{Jieke Shi}}, Arunesh Sinha, Bowen Xu, David Lo, Xinwen Hou, and Guoliang Fan. ``Curiosity-Driven and Victim-Aware Adversarial Policies." \textit{The 39th Annual Computer Security Applications Conference (ACSAC 2022, CORE Ranking A)}. [\href{https://jiekeshi.github.io/Files/ACSAC_2022.pdf}{PDF}][\href{https://doi.org/10.1145/3564625.3564636}{DOI}][\href{https://github.com/soarsmu/Curiosity_in_Adversarial_Policy}{Code}]\\
+%   \textcolor{red}{\faMedal\ \textit{Won Honorable Mention Award}}
+
+%   \item[{[C5]}] Zhou Yang, \underline{\textbf{Jieke Shi}}, Muhammad Hilmi Asyrofi, and David Lo. ``Revisiting Neuron Coverage Metrics and Quality of Deep Neural Networks." \textit{The 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2022, CORE Ranking A)}. [\href{https://jiekeshi.github.io/Files/SANER_2022_3.pdf}{PDF}][\href{https://doi.org/10.1109/SANER53432.2022.00056}{DOI}][\href{https://github.com/soarsmu/Revisiting_Neuron_Coverage}{Code}]\\
+%   \textcolor{red}{\faFire\ \textit{Most-cited paper (17 citations) in RENE Track at the time of writing}}
+
+%   \item[{[C4]}] Zhou Yang, Chenyu Wang, \underline{\textbf{Jieke Shi}}, Thong Hoang, Pavneet Kochhar, Qinghua Lu, Zhenchang Xing, and David Lo. ``What Do Users Ask in Open-Source AI Repositories? An Empirical Study of GitHub Issues." \textit{The 20th IEEE International Conference on Mining Software Repositories (MSR 2023, CORE Ranking A)}. [\href{https://arxiv.org/pdf/2303.09795.pdf}{PDF}][\href{https://github.com/soarsmu/Mining-AI-repos-issues}{Code}]
+
+%   \item[{[C3]}] Chengran Yang, Bowen Xu, Ferdian Thung, Yucen Shi, Ting Zhang, Zhou Yang, Xin Zhou, \underline{\textbf{Jieke Shi}}, Junda He, DongGyun Han, and David Lo. ``Answer Summarization for Technical Queries: Benchmark and New Approach." \textit{The 37th IEEE/ACM International Conference on Automated Software Engineering (ASE 2022, CORE Ranking A*)}. [\href{https://arxiv.org/pdf/2209.10868.pdf}{PDF}][\href{https://doi.org/10.1145/3551349.3560421}{DOI}][\href{https://github.com/TechSumBot/TechSumBot}{Code}]
+
+%   \item[{[S3]}] \underline{\textbf{Jieke Shi}}, Zhou Yang, Junda He, Bowen Xu, and David Lo. ``Can Identifier Splitting Improve Open-Vocabulary Language Model of Code?" \textit{The 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2022, CORE Ranking A)}. [\href{https://jiekeshi.github.io/Files/SANER_2022_1.pdf}{PDF}][\href{https://jiekeshi.github.io/Files/SANER_poster.pdf}{Poster}][\href{https://doi.org/10.1109/SANER53432.2022.00130}{DOI}][\href{https://github.com/soarsmu/CodeNLM}{Code}]
+
+%   \item[{[C2]}] Ratnadira Widyasari, Stefanus Agus Haryono, Ferdian Thung, \underline{\textbf{Jieke Shi}}, Constance Tan, Fiona Wee, Jack Phan, and David Lo. ``On the Influence of Biases in Bug Localization: Evaluation and Benchmark." \textit{The 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER 2022, CORE Ranking A)}. [\href{https://jiekeshi.github.io/Files/SANER_2022_2.pdf}{PDF}][\href{https://doi.org/10.1109/SANER53432.2022.00027}{DOI}]
+
+%   \item[{[C1]}] Zhou Yang, \underline{\textbf{Jieke Shi}}, Junda He, and David Lo. ``Natural Attack for Pre-trained Models of Code." \textit{The 44th IEEE/ACM International Conference on Software Engineering (ICSE 2022, CORE Ranking A*)}. [\href{https://jiekeshi.github.io/Files/ICSE_2022.pdf}{PDF}][\href{https://doi.org/10.1145/3510003.3510146}{DOI}][\href{https://github.com/soarsmu/attack-pretrain-models-of-code.git}{Code}]
+
+%   \item[{[S2]}] Zhou Yang, Harshit Jain, \underline{\textbf{Jieke Shi}}, Muhammad Hilmi Asyrofi, and David Lo. ``BiasHeal: On-the-Fly Black-Box Healing of Bias in Sentiment Analysis Systems." \textit{The 37th IEEE International Conference on Software Maintenance and Evolution (ICSME 2021, CORE Ranking A)}. [\href{https://jiekeshi.github.io/Files/BiasHeal.pdf}{PDF}][\href{https://doi.org/10.1109/ICSME52107.2021.00073}{DOI}][\href{https://github.com/yangzhou6666/BiasFinder/tree/self-healing}{Code}]
+
+%   \item[{[S1]}] Muhammad Hilmi Asyrofi, Zhou Yang, \underline{\textbf{Jieke Shi}}, Chu Wei Quan, and David Lo. ``Can Differential Testing Improve Automatic Speech Recognition Systems?" \textit{The 37th IEEE International Conference on Software Maintenance and Evolution (ICSME 2021, CORE Ranking A)}. [\href{https://jiekeshi.github.io/Files/ASREvolve.pdf}{PDF}][\href{https://doi.org/10.1109/ICSME52107.2021.00079}{DOI}][\href{https://github.com/mhilmiasyrofi/CrossASRv2}{Code}]
+
+%   \item[{[T1]}] Zhou Yang*, \underline{\textbf{Jieke Shi*}}, Shaowei Wang, and David Lo. ``IncBL: Incremental Bug Localization." \textit{The 36th IEEE/ACM International Conference on Automated Software Engineering (*Equal contributions, ASE 2021, CORE Ranking A*)}. [\href{https://jiekeshi.github.io/Files/incbl.pdf}{PDF}][\href{https://jiekeshi.github.io/Files/IncBL_poster.pdf}{Poster}][\href{https://doi.org/10.1109/ASE51524.2021.9678546}{DOI}][\href{https://github.com/soarsmu/IncBL}{Code}]
+% \end{enumerate}
+% \end{adjustwidth}
+
 
 \end{document}
