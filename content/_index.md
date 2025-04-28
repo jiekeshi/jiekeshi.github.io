@@ -7,30 +7,30 @@ title: 🏠 About
 # Jieke SHI (史 杰克)
 
 <div style="display: flex; justify-content: center; align-items: center;">
-  <!-- Google Scholar Icon and Link -->
-  <div style="margin-right: 25px;">
+  <div style="margin-right: 20px;">
     <i class="fas fa-graduation-cap" style="color: #1f4e9a;"></i>
     <a href="https://scholar.google.com/citations?hl=en&user=wIbgZVoAAAAJ" target="_blank">Google Scholar</a>
   </div>
-
-  <!-- DBLP Icon and Link -->
-  <div style="margin-right: 25px;">
+  <!-- <div style="margin-right: 20px;">
     <i class="fas fa-book" style="color: #1f4e9a;"></i>
     <a href="https://dblp.uni-trier.de/pid/246/7302.html" target="_blank">DBLP</a>
-  </div>
-
-  <!-- DBLP Icon and Link -->
-  <div style="margin-right: 25px;">
+  </div> -->
+  <div style="margin-right: 20px;">
     <i class="fab fa-github" style="color: #1f4e9a;"></i>
     <a href="https://github.com/jiekeshi" target="_blank">GitHub</a>
   </div>
-
-<div>
+  <div style="margin-right: 20px;">
     <i class="fab fa-weibo" style="color: #1f4e9a;"></i>
     <a href="https://weibo.com/u/6030362450" target="_blank">Weibo</a>
   </div>
+  <div>
+    <i class="fas fa-file-alt" style="color: #1f4e9a;"></i>
+    <a href="/resume/resume.pdf" target="_blank">CV (Apr 2025)</a>
   </div>
 </div>
+
+
+
 
 I am Jieke, a third-year Ph.D. candidate and a Research Engineer at the School of Computing and Information Systems (SCIS), Singapore Management University (SMU). I am working with Professor [David Lo](http://www.mysmu.edu/faculty/davidlo/), an ACM/IEEE/ASE Fellow, as my supervisor.
 
