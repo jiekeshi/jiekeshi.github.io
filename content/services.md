@@ -3,7 +3,7 @@ title: 💼 Services
 ---
 
 ### Program Committee / Reviewer (Reviewed 42 Submissions)
-
+- **2025**: 1x Full Papers, Reviewer, IEEE Transactions on Software Engineering (TSE)
 - **2024–2025**: 3x Full Papers, Shadow Program Committee Member, ICSE
 - **2021–2025**: 3x Full Papers, External Reviewer, ICSE
 - **2023–2025**: 4x Full Papers, External Reviewer, FSE
@@ -19,6 +19,7 @@ title: 💼 Services
 - **2022**: 2x Full Papers, External Reviewer, CAIN
 - **2022**: 1x Full Paper, External Reviewer, SE4RAI@ICSE
 - **2022**: 1x Full Paper, External Reviewer, ICECCS
+- **2022**: 1x Full Paper, Reviewer, Robotics and Autonomous Systems Journal
 - **2021**: 1x Full Paper, Reviewer, Neurocomputing Journal (Software Section)
 
 ---
