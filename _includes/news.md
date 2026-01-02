@@ -20,7 +20,7 @@
   </a>
 </li>
 
-  <div id="newsmore" style="display:none">
+  <div id="newsmore" style="display:none; padding-left: 20px;">
     <li><strong>[Jul. 2025]</strong> I have been awarded the SCIS Dean's List Award for the second time.</li>
     <li><strong>[Jun. 2025]</strong> I have been awarded the SCIS Research Excellence Award (Tier 1).</li>
     <li><strong>[Jun. 2025]</strong> I will serve as a Shadow PC and Artifact Evaluation PC member in EuroSys 2026.</li>
