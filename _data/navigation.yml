@@ -1,0 +1,16 @@
+main:
+
+  - title: "Home"
+    url: ./
+
+  - title: "Publications"
+    url: publications/
+
+  - title: "Academic Services"
+    url: services/
+
+  - title: "Honors & Grants"
+    url: honors/
+
+  - title: "CV"
+    url: cv/

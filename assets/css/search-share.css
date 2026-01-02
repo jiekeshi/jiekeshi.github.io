@@ -1,0 +1,173 @@
+/* ========== 搜索弹窗核心样式 ========== */
+.search-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 100px;
+}
+
+.search-modal.open {
+  display: flex;
+}
+
+.search-modal-content {
+  background: #ffffff;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-header {
+  display: flex;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid #eee;
+  flex-shrink: 0;
+}
+
+.search-header input {
+  flex: 1;
+  border: none;
+  font-size: 18px;
+  outline: none;
+  padding: 8px 0;
+}
+
+.search-stats {
+  padding: 10px 20px;
+  background: #f8f9fa;
+  color: #666;
+  font-size: 12px;
+  border-bottom: 1px solid #eee;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.search-results-list {
+  max-height: 480px;
+  overflow-y: auto;
+  padding: 0;
+}
+
+/* 结果组（按文档分） */
+.search-result-group {
+  border-bottom: 1px solid #eee;
+}
+
+.result-group-header {
+  padding: 12px 20px 8px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #fff;
+  position: sticky; /* 标题吸顶 */
+  top: 0;
+  z-index: 10;
+}
+
+.result-group-header i {
+  color: #5f6368;
+  font-size: 16px;
+}
+
+.group-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #1a0dab;
+}
+
+/* 片段列表 */
+.result-snippets-list {
+  padding: 0 10px 10px 46px; /* 留出左侧图标的空隙 */
+}
+
+/* 每一个可被选中的片段单元 */
+.selectable-item {
+  padding: 10px 15px;
+  margin-bottom: 4px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: #4d5156;
+  font-size: 13.5px;
+  line-height: 1.5;
+  border: 1px solid transparent;
+  transition: all 0.2s;
+  background: #fafafa;
+}
+
+/* 鼠标悬停 */
+.selectable-item:hover {
+  background: #f0f7ff;
+  border-color: #d2e3fc;
+}
+
+/* 键盘选中状态 (Active) */
+.selectable-item.active {
+  background: #e8f0fe;
+  border-color: #1a73e8;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  color: #000;
+}
+
+/* 高亮文本 */
+mark {
+  background: transparent;
+  font-weight: bold;
+  color: #d93025; /* 醒目的红色高亮或保持蓝色 */
+  box-shadow: inset 0 -2px 0 rgba(255, 235, 59, 0.8);
+  padding: 0 1px;
+}
+
+.search-no-results {
+  padding: 40px;
+  text-align: center;
+  color: #999;
+}
+
+/* 滚动条美化 */
+.search-results-list::-webkit-scrollbar { width: 6px; }
+.search-results-list::-webkit-scrollbar-track { background: #f1f1f1; }
+.search-results-list::-webkit-scrollbar-thumb { background: #ccc; border-radius: 3px; }
+
+/* ========== 分享弹窗 (保持不变) ========== */
+.share-modal { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); z-index: 2000; justify-content: center; align-items: center; }
+.share-modal.open { display: flex; }
+.share-modal-content { background: #ffffff; width: 90%; max-width: 480px; border-radius: 16px; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2); overflow: hidden; padding: 24px; }
+.share-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.share-header h3 { margin: 0; font-size: 20px; color: #333; }
+.share-close { background: none; border: none; font-size: 20px; color: #999; cursor: pointer; padding: 8px; }
+.share-close:hover { color: #333; }
+.share-preview { background: #f9f9f9; border: 1px solid #eee; border-radius: 12px; overflow: hidden; margin-bottom: 20px; }
+.share-preview img { width: 100%; height: 160px; object-fit: cover; }
+.share-preview-title { padding: 12px 16px; font-weight: 600; color: #333; font-size: 15px; }
+.share-url-box { display: flex; gap: 10px; margin-bottom: 24px; }
+.share-url-box input { flex: 1; padding: 12px 16px; border: 1px solid #ddd; border-radius: 8px; font-size: 14px; color: #333; background: #f9f9f9; outline: none; }
+.copy-btn { background: #0b1f5e; color: white; border: none; padding: 12px 20px; border-radius: 8px; font-size: 14px; cursor: pointer; display: flex; align-items: center; gap: 8px; transition: background 0.2s; }
+.copy-btn:hover { background: #1a3a8a; }
+.share-buttons { display: flex; justify-content: center; gap: 16px; }
+.share-btn { width: 50px; height: 50px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 20px; color: #666; background: #f0f0f0; text-decoration: none; transition: all 0.2s; }
+.share-btn:hover { transform: scale(1.1); }
+.share-btn.linkedin:hover { background: #0077B5; color: white; }
+.share-btn.twitter:hover { background: #000000; color: white; }
+.share-btn.whatsapp:hover { background: #25D366; color: white; }
+.share-btn.facebook:hover { background: #1877F2; color: white; }
+.share-btn.email:hover { background: #EA4335; color: white; }
+
+@media screen and (max-width: 600px) {
+  .search-modal { padding-top: 60px; }
+  .share-modal-content { padding: 20px; margin: 20px; }
+  .share-url-box { flex-direction: column; }
+  .share-buttons { gap: 12px; }
+  .share-btn { width: 44px; height: 44px; font-size: 18px; }
+}

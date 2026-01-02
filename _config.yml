@@ -1,0 +1,39 @@
+# Basic Information
+title: Jieke Shi
+position: Research Engineer & Ph.D. Candidate
+affiliation: Singapore Management University (SMU)
+affiliation_link: https://www.smu.edu.sg
+affiliation_logo: ./assets/img/smu.svg
+email: jiekeshi (at) smu.edu.sg
+dblp: https://dblp.org/pid/246/7302.html
+weibo: https://weibo.com/u/6030362450
+
+# Search Engine Optimization (SEO)
+keywords: jieke shi, shi jieke, jiekeshi, shijieke, jie ke shi, shi jie ke, 史杰克, 杰克史, 史 杰克, 杰克 史
+canonical: https://jiekeshi.tech
+description: Jieke Shi, a Ph.D. candidate and a Research Engineer at Singapore Management University (SMU), specializing in AI for Software Engineering, Program Synthesis and Formal Methods, will be entering the job market.
+
+enable_last_update: true
+
+# Links
+link_type: icon #text/icon
+google_scholar: https://scholar.google.com/citations?user=wIbgZVoAAAAJ
+github_link: https://github.com/jiekeshi
+linkedin: http://www.linkedin.com/in/jieke-shi-9212a8225
+
+# Images
+avatar: /assets/img/photo.jpeg
+share_image: /assets/img/sharecover.png
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# The following files will be removed from the generated website.
+exclude:
+  - build.sh
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - CNAME

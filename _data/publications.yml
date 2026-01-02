@@ -1,0 +1,212 @@
+main:
+
+  - title: "What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice"
+    authors: Yuqing Niu, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Ye Liu, Chengyan Ma, Yunbo Lyu, and David Lo
+    conference: 2026 IEEE 33rd International Conference on Software Analysis, Evolution and Reengineering <strong>(SANER'26)</strong>.
+    pdf: https://arxiv.org/abs/2512.17363
+    code: https://figshare.com/s/ae4ed260857cfd7df505
+    track: Research Track
+    pages: 13
+
+  - title: "PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing"
+    authors: Huihui Huang, <strong><u>Jieke Shi</u></strong>, Junkai Chen, Ting Zhang, Yikun Li, Chengran Yang, Eng Lieh Ouh, Lwin Khin Shar, and David Lo
+    conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
+    track: NIER Track
+    pages: 5
+
+  - title: "Synthesizing Efficient and Permissive Programmatic Runtime Shields for Neural Policies"
+    authors: <strong><u>Jieke Shi</u></strong>, Junda He, Zhou Yang, Đorđe Žikelić, and David Lo
+    conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2410.05641
+    code: https://github.com/jiekeshi/AEGIS
+    pages: 38
+
+  - title: "\"My productivity is boosted, but ...\" Demystifying Users' Perception on AI Coding Assistants"
+    authors: Yunbo Lyu, Zhou Yang, <strong><u>Jieke Shi</u></strong>, Jianming Chang, Yue Liu, and David Lo
+    conference: 2025 IEEE/ACM 40th International Conference on Automated Software Engineering <strong>(ASE'25)</strong>.
+    pdf: https://arxiv.org/abs/2508.12285
+    code: https://figshare.com/s/47c5ce42fd7e1dee69fe
+    pages: 13
+    track: Research Paper
+    award: ACM SIGSOFT Distinguished Paper Award
+
+  - title: "Think Like Human Developers: Harnessing Community Knowledge for Structured Code Reasoning"
+    authors: Chengran Yang, Zhensu Sun, Hong Jin Kang, <strong><u>Jieke Shi</u></strong>, and David Lo
+    conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
+    pdf: https://arxiv.org/abs/2503.14838
+    pages: 12
+    track: Research Track (1st Round)
+
+  - title: "Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval"
+    authors: Huihui Huang, Ratnadira Widyasari, Ting Zhang, Ivana Clairine Irsan, <strong><u>Jieke Shi (📧 Corr.)</u></strong>, Han Wei Ang, Frank Liauw, Eng Lieh Ouh, Lwin Khin Shar, Hong Jin Kang, and David Lo
+    conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
+    pdf: https://arxiv.org/abs/2507.09199
+    code: https://figshare.com/s/d495f11c4cc5c1c72e68
+    pages: 12
+    track: Research Track (1st Round)
+
+  - title: "Ecosystem of Large Language Models for Code"
+    authors: Zhou Yang, <strong><u>Jieke Shi (📧 Corr.)</u></strong>, Premkumar Devanbu, and David Lo
+    conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
+    pdf: https://doi.org/10.1145/3731753
+    code: https://github.com/yangzhou6666/Code-Model-Ecosystem
+    pages: 27
+
+  - title: "Finding Safety Violations of AI-Enabled Control Systems through the Lens of Synthesized Proxy Programs"
+    authors: <strong><u>Jieke Shi</u></strong>, Zhou Yang, Junda He, Bowen Xu, Dongsun Kim, DongGyun Han, and David Lo
+    conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
+    pdf: https://doi.org/10.1145/3715105
+    code: https://github.com/soarsmu/Synthify
+    pages: 33
+
+  - title: "Efficient and Green Large Language Models for Software Engineering: Literature Review, Vision, and the Road Ahead"
+    authors: <strong><u>Jieke Shi</u></strong>, Zhou Yang, and David Lo
+    conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
+    pdf: https://doi.org/10.1145/3708525
+    pages: 23
+
+  - title: "Prioritizing Speech Test Cases"
+    authors: Zhou Yang, <strong><u>Jieke Shi</u></strong>, Muhammad Hilmi Asyrofi, Bowen Xu, Xin Zhou, DongGyun Han, and David Lo
+    conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
+    pdf: https://doi.org/10.1145/3707450
+    code: https://github.com/yangzhou6666/ASRProphet
+    pages: 28
+
+  - title: "Gotcha! This Model Uses My Code! Evaluating Membership Leakage Risks in Code Models"
+    authors: Zhou Yang, Zhipeng Zhao, Chenyu Wang, <strong><u>Jieke Shi</u></strong>, Dongsun Kim, DongGyun Han, and David Lo
+    conference: IEEE Transactions on Software Engineering <strong>(TSE)</strong>, 2025.
+    pdf: https://arxiv.org/abs/2310.01166
+    pages: 16
+
+  - title: "BAFFLE: Hiding Backdoors in Offline Reinforcement Learning Datasets"
+    authors: Chen Gong, Zhou Yang, Yunpeng Bai, Junda He, <strong><u>Jieke Shi</u></strong>, Kecen Li, Arunesh Sinha, Bowen Xu, Xinwen Hou, David Lo, Tianhao Wang
+    conference: 2024 45th IEEE Symposium on Security and Privacy <strong>(S&P'24)</strong>.
+    pdf: https://arxiv.org/abs/2210.04688
+    code: https://github.com/2019ChenGong/Offline_RL_Poisoner
+    pages: 16
+    track: Main Track
+
+  - title: "Stealthy Backdoor Attack for Code Models"
+    authors: Zhou Yang, Bowen Xu, Jie M. Zhang, Hong Jin Kang, <strong><u>Jieke Shi</u></strong>, Junda He, and David Lo
+    conference: IEEE Transactions on Software Engineering <strong>(TSE)</strong>, 2024.
+    pdf: https://arxiv.org/abs/2301.02496
+    code: https://github.com/yangzhou6666/adversarial-backdoor-for-code-models
+    pages: 18
+    award: IEEE Computer Society Best Paper Award
+
+  - title: "Greening Large Language Models of Code"
+    authors: <strong><u>Jieke Shi</u></strong>, Zhou Yang, Hong Jin Kang, Bowen Xu, Junda He, and David Lo
+    conference: 2024 IEEE/ACM 46th International Conference on Software Engineering <strong>(ICSE'24)</strong>.
+    pdf: https://doi.org/10.1145/3639475.3640097
+    code: https://github.com/soarsmu/Avatar
+    pages: 12
+    track: SEIS Track
+
+  - title: "Curiosity-Driven Testing for Sequential Decision-Making Process"
+    authors: Junda He, Zhou Yang, <strong><u>Jieke Shi</u></strong>, Chengran Yang, Kisub Kim, Bowen Xu, Xin Zhou, and David Lo
+    conference: 2024 IEEE/ACM 46th International Conference on Software Engineering <strong>(ICSE'24)</strong>.
+    pdf: https://doi.org/10.1145/3597503.3639149
+    code: https://figshare.com/s/6d7a984f6ef797904d4b
+    pages: 13
+    track: Research Track
+
+  - title: "Unveiling Memorization in Code Models"
+    authors: Zhou Yang, Zhipeng Zhao, Chenyu Wang, <strong><u>Jieke Shi</u></strong>, Dongsun Kim, DongGyun Han, and David Lo
+    conference: 2024 IEEE/ACM 46th International Conference on Software Engineering <strong>(ICSE'24)</strong>.
+    pdf: https://doi.org/10.1145/3597503.3639074
+    code: https://github.com/yangzhou6666/Privacy-in-Code-Models
+    pages: 13
+    track: Research Track
+
+  - title: "What Do Users Ask in Open-Source AI Repositories? An Empirical Study of GitHub Issues"
+    authors: Zhou Yang, Chenyu Wang, <strong><u>Jieke Shi</u></strong>, Thong Hoang, Pavneet Kochhar, Qinghua Lu, Zhenchang Xing, and David Lo
+    conference: 2023 IEEE/ACM 20th International Conference on Mining Software Repositories <strong>(MSR'23)</strong>.
+    pdf: https://arxiv.org/abs/2303.09795
+    code: https://github.com/soarsmu/Mining-AI-repos-issues
+    pages: 12
+    track: Technical Track
+
+  - title: "Curiosity-Driven and Victim-Aware Adversarial Policies"
+    authors: Chen Gong, Zhou Yang, Yunpeng Bai, <strong><u>Jieke Shi</u></strong>, Arunesh Sinha, Bowen Xu, David Lo, Xinwen Hou, Guoliang Fan
+    conference: 2022 39th Annual Computer Security Applications Conference <strong>(ACSAC'22)</strong>.
+    pdf: https://doi.org/10.1145/3564625.3564636
+    code: https://github.com/soarsmu/Curiosity_in_Adversarial_Policy
+    pages: 15
+    track: Technical Paper
+    award: Honorable Mention Award
+
+  - title: "Compressing Pre-trained Models of Code into 3 MB"
+    authors: <strong><u>Jieke Shi</u></strong>, Zhou Yang, Bowen Xu, Hong Jin Kang, and David Lo
+    conference: 2022 IEEE/ACM 37th International Conference on Automated Software Engineering <strong>(ASE'22)</strong>.
+    pdf: https://doi.org/10.1145/3551349.3556964
+    code: https://github.com/soarsmu/Compressor
+    pages: 12
+    track: Research Paper
+    award: ACM SIGSOFT Distinguished Paper Award Nomination
+
+  - title: "Answer Summarization for Technical Queries: Benchmark and New Approach"
+    authors: Chengran Yang, Bowen Xu, Ferdian Thung, Yucen Shi, Ting Zhang, Zhou Yang, Xin Zhou, <strong><u>Jieke Shi</u></strong>, Junda He, DongGyun Han, and David Lo
+    conference: 2022 IEEE/ACM 37th International Conference on Automated Software Engineering <strong>(ASE'22)</strong>.
+    pdf: https://doi.org/10.1145/3551349.3560421
+    code: https://github.com/TechSumBot/TechSumBot
+    pages: 12
+    track: Research Paper
+
+  - title: "Can Identifier Splitting Improve Open-Vocabulary Language Model of Code?"
+    authors: <strong><u>Jieke Shi</u></strong>, Zhou Yang, Junda He, Bowen Xu, and David Lo
+    conference: 2022 IEEE 29th International Conference on Software Analysis, Evolution and Reengineering <strong>(SANER'22)</strong>.
+    pdf: https://arxiv.org/abs/2201.01988
+    code: https://github.com/soarsmu/CodeNLM.git
+    pages: 5
+    track: ERA Track
+    video: https://youtu.be/wFB_w6gHgcI
+
+  - title: "Revisiting Neuron Coverage Metrics and Quality of Deep Neural Networks"
+    authors: Zhou Yang, <strong><u>Jieke Shi</u></strong>, Muhammad Hilmi Asyrofi, and David Lo
+    conference: 2022 IEEE 29th International Conference on Software Analysis, Evolution and Reengineering <strong>(SANER'22)</strong>.
+    pdf: https://arxiv.org/abs/2201.00191
+    code: https://github.com/soarsmu/Revisiting_Neuron_Coverage.git
+    pages: 12
+    track: RENE Track
+
+  - title: "On the Influence of Biases in Bug Localization: Evaluation and Benchmark"
+    authors: Ratnadira Widyasari, Stefanus Agus Haryono, Ferdian Thung, <strong><u>Jieke Shi</u></strong>, Constance Tan, Fiona Wee, Jack Phan, and David Lo
+    conference: 2022 IEEE 29th International Conference on Software Analysis, Evolution and Reengineering <strong>(SANER'22)</strong>.
+    pdf: https://ink.library.smu.edu.sg/sis_research/7655
+    code: https://github.com/jiekeshi/Bias-in-BL.git
+    pages: 11
+    track: RENE Track
+    video: https://youtu.be/NDwtTHdsHS4
+
+  - title: "Natural Attack for Pre-trained Models of Code"
+    authors: Zhou Yang, <strong><u>Jieke Shi</u></strong>, Junda He, and David Lo
+    conference: 2022 IEEE/ACM 44th International Conference on Software Engineering <strong>(ICSE'22)</strong>.
+    pdf: https://doi.org/10.1145/3510003.3510146
+    code: https://github.com/soarsmu/attack-pretrain-models-of-code.git
+    pages: 12
+    track: Technical Track
+
+  - title: "BiasHeal: On-the-Fly Black-Box Healing of Bias in Sentiment Analysis Systems"
+    authors: Zhou Yang, Harshit Jain, <strong><u>Jieke Shi</u></strong>, Muhammad Hilmi Asyrofi, and David Lo
+    conference: 2021 IEEE 37th International Conference on Software Maintenance and Evolution <strong>(ICSME'21)</strong>.
+    pdf: https://ink.library.smu.edu.sg/sis_research/6711
+    code: https://github.com/yangzhou6666/BiasFinder/tree/self-healing
+    pages: 5
+    track: NIER Track
+
+  - title: "Can Differential Testing Improve Automatic Speech Recognition Systems?"
+    authors: Muhammad Hilmi Asyrofi, Zhou Yang, <strong><u>Jieke Shi</u></strong>, Chu Wei Quan, and David Lo
+    conference: 2021 IEEE 37th International Conference on Software Maintenance and Evolution <strong>(ICSME'21)</strong>.
+    pdf: https://ink.library.smu.edu.sg/sis_research/6893
+    code: https://github.com/mhilmiasyrofi/CrossASRv2
+    pages: 5
+    track: NIER Track
+
+  - title: "IncBL: Incremental Bug Localization"
+    authors: Zhou Yang, <strong><u>Jieke Shi (⚖️ Co-1st)</u></strong>, Shaowei Wang, and David Lo
+    conference: 2021 IEEE/ACM 36th International Conference on Automated Software Engineering <strong>(ASE'21)</strong>.
+    pdf: https://arxiv.org/abs/2106.07413
+    code: https://github.com/soarsmu/IncBL
+    pages: 4
+    track: Tool Demonstrations
+    video: https://youtu.be/G4gMuvlJSb0
