@@ -14,10 +14,11 @@
 }
 
 .topnav img {
-  height: 42px;
+  height: 37px;
   width: auto;
   margin: 0;
-  padding-left: 25px;
+  padding-left: 20px;
+  padding-top: 2px;
   align-self: flex-end;
 }
 
