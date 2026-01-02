@@ -14,7 +14,7 @@
     <meta property="og:site_name" content="{{ site.title }} | {{ site.affiliation }}">
     <meta property="og:description" content="{{ site.description }}">
     <meta property="og:locale" content="default">
-    <meta property="og:image" content="{{ site.avatar | relative_url }}">
+    <meta property="og:image" content="{{ site.share_image | default: site.avatar | relative_url }}">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }} | {{ site.affiliation }}">
     <meta name="twitter:description" content="{{ site.description }}">
