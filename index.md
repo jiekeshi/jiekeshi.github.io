@@ -14,7 +14,7 @@ Before coming to SMU, I received a B.S. degree from Yangzhou University (advised
 
 <div style="border: 2px solid #ddd; border-radius: 8px; padding: 10px; margin: 15px 0; background-color: #f9f9f9;">
   <p style="font-size: 15px; line-height: 1.5; margin: 0; font-family: 'Libertinus Serif', serif;">
-    <span style="color: #ff6347; font-weight: bold;">📢 We are always looking for passionate students and researchers! If you are interested in joining as a Ph.D. student, visiting scholar, or research assistant, please <a href="/contact/" style="color: #2196F3;">contact me</a> or <a href="https://www.mysmu.edu/faculty/davidlo/" target="_blank" style="color: #2196F3;">Prof. David Lo</a> directly.</span>
+    <span style="color: #ff6347; font-weight: bold;">📢 We are always looking for passionate students and researchers! If you are interested in joining as a Ph.D. student, visiting scholar, or research assistant, please <a href="mailto:jiekeshi@smu.edu.sg" style="color: #2196F3;">contact me</a> or <a href="http://www.mysmu.edu/faculty/davidlo/" target="_blank" style="color: #2196F3;">Prof. David Lo</a> directly.</span>
   </p>
 </div>
 
