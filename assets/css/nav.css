@@ -88,9 +88,10 @@
     height: 42px;
   }
   .topnav img {
-    height: 42px;
+    height: 37px;
     padding-left: 12px;
-    align-self: center;  /* 移动端垂直居中 */
+    padding-top: 2px;
+    align-self: flex-end;
   }
 
   /* hamburger icon */
