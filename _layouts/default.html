@@ -48,6 +48,16 @@
     <script>window.SEARCH_JSON_URL = "{{ '/z-search.json' | relative_url }}";</script>
     <script src="{{ '/assets/js/search-share.js' | relative_url }}"></script>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GHEN3MPFDR"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-GHEN3MPFDR');
+    </script>
+
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         var links = document.getElementsByTagName('a');
