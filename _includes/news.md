@@ -1,6 +1,7 @@
 <h2 style="margin: 40px 0px 10px;">News</h2>
 
 <ul>
+  <li><strong>[Jan. 2026]</strong> One paper has been accepted to FORGE 2026.</li>
   <li><strong>[Dec. 2025]</strong> Another paper has been accepted to ICSE 2026 (NIER Track), and one to SANER 2026 (Research Track).</li>
   <li><strong>[Nov. 2025]</strong> Gave a talk at the Singapore Programming Languages Summit 2025.</li>
   <li><strong>[Nov. 2025]</strong> Delivered a keynote at the A-Mobile workshop of ASE 2025 and gave an invited talk at Korea University.</li>

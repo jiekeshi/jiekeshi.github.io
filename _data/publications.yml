@@ -1,5 +1,11 @@
 main:
 
+  - title: "Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution"
+    authors: Chengyan Ma, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Ye Liu, Yuqing Niu, and David Lo
+    conference: 2026 ACM 3rd international conference on AI Foundation Models and Software Engineering <strong>(FORGE'26)</strong>.
+    track: New Idea Papers
+    pages: 5
+
   - title: "What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice"
     authors: Yuqing Niu, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Ye Liu, Chengyan Ma, Yunbo Lyu, and David Lo
     conference: 2026 IEEE 33rd International Conference on Software Analysis, Evolution and Reengineering <strong>(SANER'26)</strong>.
