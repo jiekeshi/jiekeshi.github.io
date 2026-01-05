@@ -13,13 +13,11 @@
   <li><strong>[Aug. 2025]</strong> Our TSE paper wins the 2024 IEEE Computer Society Best Paper Award (1 out of 183)!</li>
   <li><strong>[Aug. 2025]</strong> One paper is accepted by ASE 2025.</li>
 
-  <li>
   <a href="#" onclick="toggleVis(this); return false;">
     <span class="triangle">▶</span>
     <span class="label">Show More News</span>
     <span class="range">(from <span class="date">Jun. 2021</span> to <span class="date">Jul. 2025</span>)</span>
   </a>
-</li>
 
   <div id="newsmore" style="display:none; padding-left: 20px;">
     <li><strong>[Jul. 2025]</strong> I have been awarded the SCIS Dean's List Award for the second time.</li>
