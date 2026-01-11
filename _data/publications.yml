@@ -44,7 +44,7 @@ main:
     track: Research Track (1st Round)
 
   - title: "Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval"
-    authors: Huihui Huang, Ratnadira Widyasari, Ting Zhang, Ivana Clairine Irsan, <strong><u>Jieke Shi (📧 Corr.)</u></strong>, Han Wei Ang, Frank Liauw, Eng Lieh Ouh, Lwin Khin Shar, Hong Jin Kang, and David Lo
+    authors: Huihui Huang, Ratnadira Widyasari, Ting Zhang, Ivana Clairine Irsan, <strong><u>Jieke Shi</u></strong>, Han Wei Ang, Frank Liauw, Eng Lieh Ouh, Lwin Khin Shar, Hong Jin Kang, and David Lo
     conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
     pdf: https://arxiv.org/abs/2507.09199
     code: https://figshare.com/s/d495f11c4cc5c1c72e68
@@ -52,7 +52,7 @@ main:
     track: Research Track (1st Round)
 
   - title: "Ecosystem of Large Language Models for Code"
-    authors: Zhou Yang, <strong><u>Jieke Shi (📧 Corr.)</u></strong>, Premkumar Devanbu, and David Lo
+    authors: Zhou Yang, <strong><u>Jieke Shi</u></strong>, Premkumar Devanbu, and David Lo
     conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2025.
     pdf: https://doi.org/10.1145/3731753
     code: https://github.com/yangzhou6666/Code-Model-Ecosystem
