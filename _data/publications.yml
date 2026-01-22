@@ -17,6 +17,8 @@ main:
   - title: "PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing"
     authors: Huihui Huang, <strong><u>Jieke Shi</u></strong>, Junkai Chen, Ting Zhang, Yikun Li, Chengran Yang, Eng Lieh Ouh, Lwin Khin Shar, and David Lo
     conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
+    pdf: https://arxiv.org/abs/2601.06910
+    code: https://github.com/huanghuihui0904/PenForge
     track: NIER Track
     pages: 5
 
