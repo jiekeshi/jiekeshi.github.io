@@ -19,6 +19,7 @@ main:
     code: https://figshare.com/s/ae4ed260857cfd7df505
     track: Research Track
     pages: 12
+    award: IEEE Computer Society TCSE Distinguished Paper Award
 
   - title: "PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing"
     authors: Huihui Huang, <strong><u>Jieke Shi</u></strong>, Junkai Chen, Ting Zhang, Yikun Li, Chengran Yang, Eng Lieh Ouh, Lwin Khin Shar, and David Lo
