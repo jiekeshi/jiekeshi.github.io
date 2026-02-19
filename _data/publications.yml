@@ -9,6 +9,7 @@ main:
   - title: "Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution"
     authors: Chengyan Ma, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Ye Liu, Yuqing Niu, and David Lo
     conference: 2026 ACM 3rd international conference on AI Foundation Models and Software Engineering <strong>(FORGE'26)</strong>.
+    pdf: ../assets/pdf/SymTEE.pdf
     track: New Idea Papers
     pages: 5
 
