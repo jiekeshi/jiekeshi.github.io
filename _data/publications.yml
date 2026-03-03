@@ -1,6 +1,6 @@
 main:
 
-  - title: "From Code to Courtroom: LLMs as the New Software Judges"
+  - title: "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead"
     authors: Junda He, <strong><u>Jieke Shi</u></strong>, Terry Yue Zhuo, Christoph Treude, Jiamou Sun, Zhenchang Xing, Xiaoning Du, and David Lo
     conference: ACM Transactions on Software Engineering and Methodology <strong>(TOSEM)</strong>, 2026.
     pdf: https://arxiv.org/abs/2510.24367
