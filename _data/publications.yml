@@ -46,13 +46,6 @@ main:
     track: Research Paper
     award: ACM SIGSOFT Distinguished Paper Award
 
-  - title: "Think Like Human Developers: Harnessing Community Knowledge for Structured Code Reasoning"
-    authors: Chengran Yang, Zhensu Sun, Hong Jin Kang, <strong><u>Jieke Shi</u></strong>, and David Lo
-    conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
-    pdf: https://arxiv.org/abs/2503.14838
-    pages: 12
-    track: Research Track (1st Round)
-
   - title: "Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval"
     authors: Huihui Huang, Ratnadira Widyasari, Ting Zhang, Ivana Clairine Irsan, <strong><u>Jieke Shi</u></strong>, Han Wei Ang, Frank Liauw, Eng Lieh Ouh, Lwin Khin Shar, Hong Jin Kang, and David Lo
     conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
@@ -60,6 +53,14 @@ main:
     code: https://figshare.com/s/d495f11c4cc5c1c72e68
     pages: 12
     track: Research Track (1st Round)
+
+  - title: "Think Like Human Developers: Harnessing Community Knowledge for Structured Code Reasoning"
+    authors: Chengran Yang, Zhensu Sun, Hong Jin Kang, <strong><u>Jieke Shi</u></strong>, and David Lo
+    conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
+    pdf: https://arxiv.org/abs/2503.14838
+    pages: 12
+    track: Research Track (1st Round)
+    award: ACM SIGSOFT Distinguished Paper Award
 
   - title: "Ecosystem of Large Language Models for Code"
     authors: Zhou Yang, <strong><u>Jieke Shi</u></strong>, Premkumar Devanbu, and David Lo
