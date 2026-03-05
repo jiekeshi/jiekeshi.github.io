@@ -1,6 +1,14 @@
 <h2 style="margin: 60px 0px 10px;">Honors &amp; Grants</h2>
 
 <div class="year-block">
+  <div class="year-watermark">2026</div>
+  <ul class="clean-list">
+    <li>ACM SIGSOFT Distinguished Paper Award, ICSE 2026</li>
+    <li>IEEE Computer Society TCSE Distinguished Paper Awards, SANER 2026</li>
+  </ul>
+</div>
+
+<div class="year-block">
   <div class="year-watermark">2025</div>
   <ul class="clean-list">
     <li>ACM SIGSOFT Distinguished Paper Award, ASE 2025</li>
@@ -9,6 +17,7 @@
     <li>SCIS Dean’s List Award, Singapore Management University</li>
     <li>SCIS PhD Research Excellence Award, Singapore Management University</li>
     <li>OpenAI Researcher Access Program Grant ($5,000)</li>
+    <li>Google Cloud Research Credits Program Grant ($2,500)</li>
   </ul>
 </div>
 
