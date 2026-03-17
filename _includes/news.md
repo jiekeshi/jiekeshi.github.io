@@ -1,6 +1,7 @@
 <h2 style="margin: 40px 0px 10px;">News</h2>
 
 <ul>
+  <li><strong>[Mar. 2026]</strong> I have defended my PhD thesis and now become Dr. Shi!</li>
   <li><strong>[Mar. 2026]</strong> Our paper received the ACM SIGSOFT Distinguished Paper Award at ICSE 2026!</li>
   <li><strong>[Feb. 2026]</strong> Our paper won the IEEE Computer Society TCSE Distinguished Paper Award at SANER 2026!</li>
   <li><strong>[Feb. 2026]</strong> One survey paper is accepted by TOSEM!</li>
