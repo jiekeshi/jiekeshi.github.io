@@ -1,6 +1,7 @@
 # Basic Information
 title: Jieke Shi
-position: Research Engineer & Ph.D. Candidate
+position1: Research Scientist
+position2: NRF Postdoctoral Award Recipient
 affiliation: Singapore Management University (SMU)
 affiliation_link: https://www.smu.edu.sg
 affiliation_logo: ./assets/img/smu.svg
@@ -11,7 +12,7 @@ weibo: https://weibo.com/u/6030362450
 # Search Engine Optimization (SEO)
 keywords: jieke shi, shi jieke, jiekeshi, shijieke, jie ke shi, shi jie ke, 史杰克, 杰克史, 史 杰克, 杰克 史
 canonical: https://jiekeshi.tech
-description: Jieke Shi, a Ph.D. candidate and a Research Engineer at Singapore Management University (SMU), specializing in AI for Software Engineering, Program Synthesis and Formal Methods, will be entering the job market.
+description: Jieke Shi, a Research Scientist and NRF Postdoctoral Award Recipient at Singapore Management University (SMU), specializing in AI for Software Engineering, Program Synthesis and Formal Methods, will be entering the job market.
 url: https://jiekeshi.github.io
 
 enable_last_update: true

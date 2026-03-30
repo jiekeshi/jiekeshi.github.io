@@ -3,6 +3,7 @@
 <div class="year-block">
   <div class="year-watermark">2026</div>
   <ul class="clean-list">
+    <li>National Research Foundation (NRF) Postdoctoral Award (S$250,000), Singapore NRF</li>
     <li>ACM SIGSOFT Distinguished Paper Award, ICSE 2026</li>
     <li>IEEE Computer Society TCSE Distinguished Paper Awards, SANER 2026</li>
   </ul>

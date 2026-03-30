@@ -1,4 +1,15 @@
 main:
+  - title: "Automated Repair of TEE Partitioning Issues via DSL-Guided and LLM-Assisted Patching"
+    authors: Chengyan Ma, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Ye Liu, Feng Li, Yuqing Niu, and David Lo
+    conference: 2026 ACM 34th International Conference on the Foundations of Software Engineering <strong>(FSE'26)</strong>.
+    track: Research Track
+    pages: 27
+
+  - title: "Towards Efficient Code LLM Inference with Quantization and Compilation-Time Optimization"
+    authors: <strong><u>Jieke Shi</u></strong>, Junda He, Zhou Yang, Chengran Yang, Mykhailo Klymenko, Thong Hoang, Sherry Xu, Zhenchang Xing, and David Lo
+    conference: 2026 ACM 34th International Conference on the Foundations of Software Engineering <strong>(FSE'26)</strong>.
+    track: Research Track
+    pages: 27
 
   - title: "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead"
     authors: Junda He, <strong><u>Jieke Shi</u></strong>, Terry Yue Zhuo, Christoph Treude, Jiamou Sun, Zhenchang Xing, Xiaoning Du, and David Lo

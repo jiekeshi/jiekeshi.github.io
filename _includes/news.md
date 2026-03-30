@@ -1,6 +1,8 @@
 <h2 style="margin: 40px 0px 10px;">News</h2>
 
 <ul>
+  <li><strong>[Mar. 2026]</strong> Awarded the <strong>National Research Foundation (NRF) Postdoctoral Award</strong> by the Singapore NRF, the only recipient from SMU SCIS. The award provides up to 4 years of funding with a SGD 250,000 research grant to support independent research!</li>
+  <li><strong>[Mar. 2026]</strong> Two papers are accepted by FSE 2026!</li>
   <li><strong>[Mar. 2026]</strong> I have defended my PhD thesis and now become Dr. Shi!</li>
   <li><strong>[Mar. 2026]</strong> Our paper received the ACM SIGSOFT Distinguished Paper Award at ICSE 2026!</li>
   <li><strong>[Feb. 2026]</strong> Our paper won the IEEE Computer Society TCSE Distinguished Paper Award at SANER 2026!</li>
