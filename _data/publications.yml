@@ -131,6 +131,7 @@ main:
     code: https://github.com/soarsmu/Avatar
     pages: 12
     track: SEIS Track
+    award: Most Cited Paper in SEIS Track
     year: 2024
 
   - title: "Stealthy Backdoor Attack for Code Models"
