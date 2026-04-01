@@ -4,7 +4,8 @@
 
 <p style="margin: 10px 0 20px; color: #555; font-size: 14px; line-height: 1.6;">
 I believe great research thrives on collaboration. I aim to lead 1&ndash;2 first-author projects each year while dedicating the rest of my time to collaborating with peers and mentoring students.
-<br><span style="font-size: 12px; color: #888;">&#128231; Corr. = corresponding author &nbsp;&middot;&nbsp; &#9878;&#65039; Co-1st = co-first author </span>
+<br><span style="font-size: 12px; color: #888;">&#128231; Corr. = corresponding author &nbsp;&middot;&nbsp; &#9878;&#65039; Co-1st = co-first author</span>
+<br><span style="font-size: 12px; color: #888;">For preprints, please refer to my <a href="https://scholar.google.com/citations?user=wIbgZVoAAAAJ" target="_blank" style="color: #888;">Google Scholar</a> or <a href="https://dblp.org/pid/246/7302.html" target="_blank" style="color: #888;">DBLP</a>.</span>
 </p>
 
 {% assign pubs = site.data.publications.main %}
