@@ -66,6 +66,22 @@ main:
     pages: 5
     year: 2026
 
+  - title: "SecureVibeBench: Evaluating Secure Coding Capabilities of Code Agents with Realistic Vulnerability Scenarios"
+    authors: Junkai Chen, Huihui Huang, Yunbo Lyu, Junwen An, <strong><u>Jieke Shi</u></strong>, Chengran Yang, Ting Zhang, Haoye Tian, Yikun Li, Zhenhao Li, Xin Zhou, Xing Hu, and David Lo
+    pdf: https://arxiv.org/abs/2509.22097
+    conference: 2026 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL'26)</strong>.
+    track: Main Conference
+    year: 2026
+    pages: 19
+
+  - title: "SeCuRepair: Semantics-Aligned, Curriculum-Driven, and Reasoning-Enhanced Vulnerability Repair Framework"
+    authors: Chengran Yang, Ting Zhang, Jinfeng Jiang, Xin Zhou, Haoye Tian, Mingzhe Du, <strong><u>Jieke Shi</u></strong>, Junkai Chen, Yikun Li, Eng Lieh Ouh, Lwin Khin Shar, and David Lo
+    conference: 2026 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL'26)</strong>.
+    track: Main Conference
+    pdf: https://arxiv.org/abs/2510.01002
+    year: 2026
+    pages: 16
+
   # --- 2025 ---
   - title: "Synthesizing Efficient and Permissive Programmatic Runtime Shields for Neural Policies"
     authors: <strong><u>Jieke Shi</u></strong>, Junda He, Zhou Yang, Đorđe Žikelić, and David Lo

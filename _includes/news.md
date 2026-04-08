@@ -1,7 +1,9 @@
 <h2 style="margin: 40px 0px 10px;">News</h2>
 
+<div style="background: #fffbe6; border-left: 3px solid #f5c518; padding: 8px 12px; margin-bottom: 12px; border-radius: 4px; font-size: 14px; line-height: 1.6;">📌 <strong>[Mar. 2026]</strong> Awarded the <strong>National Research Foundation (NRF) Postdoctoral Award</strong> by the Singapore NRF, the only recipient from SMU SCIS. The award provides up to 4 years of funding with a S$250,000 research grant to support independent research! If you are interested in collaborating or joining our group, feel free to <a href="mailto:jiekeshi@smu.edu.sg">reach out</a>.</div>
+
 <ul>
-  <li><strong>[Mar. 2026]</strong> Awarded the <strong>National Research Foundation (NRF) Postdoctoral Award</strong> by the Singapore NRF, the only recipient from SMU SCIS. The award provides up to 4 years of funding with a SGD 250,000 research grant to support independent research!</li>
+  <li><strong>[Apr. 2026]</strong> Two papers are accepted by ACL 2026!</li>
   <li><strong>[Mar. 2026]</strong> Two papers are accepted by FSE 2026!</li>
   <li><strong>[Mar. 2026]</strong> I have defended my PhD thesis and now become Dr. Shi!</li>
   <li><strong>[Mar. 2026]</strong> Our paper received the ACM SIGSOFT Distinguished Paper Award at ICSE 2026!</li>
