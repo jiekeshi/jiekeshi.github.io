@@ -218,13 +218,15 @@ function sharePost() {
   const title = document.title;
   document.getElementById('sharePreviewTitle').textContent = title;
   document.getElementById('shareUrl').value = url;
-  const ogImage = document.querySelector('meta[property="og:image"]');
   const previewImg = document.getElementById('sharePreviewImg');
-  if (ogImage && ogImage.content) {
-    previewImg.src = ogImage.content;
-    previewImg.style.display = 'block';
-  } else {
-    previewImg.style.display = 'none';
+  if (previewImg) {
+    const ogImage = document.querySelector('meta[property="og:image"]');
+    if (ogImage && ogImage.content) {
+      previewImg.src = ogImage.content;
+      previewImg.style.display = 'block';
+    } else {
+      previewImg.style.display = 'none';
+    }
   }
   const encodedUrl = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
