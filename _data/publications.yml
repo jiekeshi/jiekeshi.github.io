@@ -24,6 +24,15 @@ main:
     award: IEEE Computer Society TCSE Distinguished Paper Award
     year: 2026
 
+  - title: "Hidden Licensing Risks in the LLMware Ecosystem"
+    authors: Bo Wang, Yueyang Chen, <strong><u>Jieke Shi</u></strong>, Minghui Li, Yunbo Lyu, Yinan Wu, Youfang Lin, and Zhou Yang
+    conference: 2026 ACM SIGSOFT 35th International Symposium on Software Testing and Analysis <strong>(ISSTA'26)</strong>.
+    pdf: https://arxiv.org/abs/2602.10758
+    code: https://anonymous.4open.science/r/LiAgent-DB35
+    track: Research Track
+    pages: 22
+    year: 2026
+
   - title: "Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution"
     authors: Chengyan Ma, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Ye Liu, Yuqing Niu, and David Lo
     conference: 2026 ACM 3rd International Conference on AI Foundation Models and Software Engineering <strong>(FORGE'26)</strong>.
