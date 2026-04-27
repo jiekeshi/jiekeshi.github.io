@@ -4,14 +4,18 @@ main:
     authors: <strong><u>Jieke Shi</u></strong>, Junda He, Zhou Yang, Chengran Yang, Mykhailo Klymenko, Thong Hoang, Sherry Xu, Zhenchang Xing, and David Lo
     conference: 2026 ACM 34th International Conference on the Foundations of Software Engineering <strong>(FSE'26)</strong>.
     track: Research Track
-    pages: 27
+    pdf: https://arxiv.org/abs/2603.29813
+    code: https://github.com/jiekeshi/ditto
+    pages: 24
     year: 2026
 
   - title: "Automated Repair of TEE Partitioning Issues via DSL-Guided and LLM-Assisted Patching"
     authors: Chengyan Ma, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Ruidong Han, Ye Liu, Feng Li, Yuqing Niu, and David Lo
     conference: 2026 ACM 34th International Conference on the Foundations of Software Engineering <strong>(FSE'26)</strong>.
     track: Research Track
-    pages: 27
+    pages: 24
+    pdf: ../assets/pdf/TEERepair.pdf
+    code: https://github.com/CharlieMCY/TEERepair
     year: 2026
 
   - title: "What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice"
@@ -38,6 +42,7 @@ main:
     conference: 2026 ACM 3rd International Conference on AI Foundation Models and Software Engineering <strong>(FORGE'26)</strong>.
     pdf: ../assets/pdf/SymTEE.pdf
     track: New Idea Papers
+    code: https://github.com/CharlieMCY/SymTEE
     pages: 5
     year: 2026
 
@@ -46,7 +51,7 @@ main:
     conference: 2026 IEEE/ACM 48th International Conference on Software Engineering <strong>(ICSE'26)</strong>.
     pdf: https://arxiv.org/abs/2503.14838
     pages: 12
-    track: Research Track (1st Round)
+    track: Research Track
     award: ACM SIGSOFT Distinguished Paper Award
     year: 2026
 
@@ -56,7 +61,7 @@ main:
     pdf: https://arxiv.org/abs/2507.09199
     code: https://figshare.com/s/d495f11c4cc5c1c72e68
     pages: 12
-    track: Research Track (1st Round)
+    track: Research Track
     year: 2026
 
   - title: "LLM-as-a-Judge for Software Engineering: Literature Review, Vision, and the Road Ahead"
