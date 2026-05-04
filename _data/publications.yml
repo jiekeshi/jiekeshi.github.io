@@ -146,14 +146,14 @@ main:
     pages: 28
     year: 2025
 
+  # --- 2024 ---
   - title: "Gotcha! This Model Uses My Code! Evaluating Membership Leakage Risks in Code Models"
     authors: Zhou Yang, Zhipeng Zhao, Chenyu Wang, <strong><u>Jieke Shi</u></strong>, Dongsun Kim, DongGyun Han, and David Lo
-    conference: IEEE Transactions on Software Engineering <strong>(TSE)</strong>, 2025.
+    conference: IEEE Transactions on Software Engineering <strong>(TSE)</strong>, 2024.
     pdf: https://arxiv.org/abs/2310.01166
     pages: 16
-    year: 2025
+    year: 2024
 
-  # --- 2024 ---
   - title: "Greening Large Language Models of Code"
     authors: <strong><u>Jieke Shi</u></strong>, Zhou Yang, Hong Jin Kang, Bowen Xu, Junda He, and David Lo
     conference: 2024 IEEE/ACM 46th International Conference on Software Engineering <strong>(ICSE'24)</strong>.
