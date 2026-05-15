@@ -96,6 +96,14 @@ main:
     year: 2026
     pages: 16
 
+  - title: "ESG Reporting Lifecycle Management with Large Language Models and AI Agents"
+    authors: Thong Hoang, Mykhailo Klymenko, Xiwei Xu, Shidong Pan, Yi Ding, Xushuo Tang, Zhengyi Yang, <strong><u>Jieke Shi</u></strong>, and David Lo
+    conference: 2026 IEEE 23rd International Conference on Software Architecture <strong>(ICSA'26)</strong>.
+    pdf: https://arxiv.org/abs/2603.10646
+    track: Software Architecture in Practice
+    pages: 8
+    year: 2026
+
   # --- 2025 ---
   - title: "Synthesizing Efficient and Permissive Programmatic Runtime Shields for Neural Policies"
     authors: <strong><u>Jieke Shi</u></strong>, Junda He, Zhou Yang, Đorđe Žikelić, and David Lo
