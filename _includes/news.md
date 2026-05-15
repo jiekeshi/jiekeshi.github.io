@@ -5,7 +5,7 @@
 <ul>
   <li><strong>[Apr. 2026]</strong> One paper is accepted by ISSTA 2026!</li>
   <li><strong>[Apr. 2026]</strong> Two papers are accepted by ACL 2026!</li>
-  <li><strong>[Mar. 2026]</strong> Two papers are accepted by FSE 2026!</li>
+  <li><strong>[Mar. 2026]</strong> Two papers are accepted by FSE 2026, and one is accepted by ICSA 2026!</li>
   <li><strong>[Mar. 2026]</strong> I have defended my PhD thesis and now become Dr. Shi!</li>
   <li><strong>[Mar. 2026]</strong> Our paper received the ACM SIGSOFT Distinguished Paper Award at ICSE 2026!</li>
   <li><strong>[Feb. 2026]</strong> Our paper won the IEEE Computer Society TCSE Distinguished Paper Award at SANER 2026!</li>
