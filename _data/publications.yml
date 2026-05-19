@@ -91,10 +91,11 @@ main:
   - title: "SeCuRepair: Semantics-Aligned, Curriculum-Driven, and Reasoning-Enhanced Vulnerability Repair Framework"
     authors: Chengran Yang, Ting Zhang, Jinfeng Jiang, Xin Zhou, Haoye Tian, Mingzhe Du, <strong><u>Jieke Shi</u></strong>, Junkai Chen, Yikun Li, Eng Lieh Ouh, Lwin Khin Shar, and David Lo
     conference: 2026 64th Annual Meeting of the Association for Computational Linguistics <strong>(ACL'26)</strong>.
-    track: Main Conference
+    track: Main Conference (Oral)
     pdf: https://arxiv.org/abs/2510.01002
     year: 2026
     pages: 16
+    award: Outstanding Paper Candidate
 
   - title: "ESG Reporting Lifecycle Management with Large Language Models and AI Agents"
     authors: Thong Hoang, Mykhailo Klymenko, Xiwei Xu, Shidong Pan, Yi Ding, Xushuo Tang, Zhengyi Yang, <strong><u>Jieke Shi</u></strong>, and David Lo
