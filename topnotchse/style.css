@@ -1,0 +1,162 @@
+body {
+        font-family: Vollkorn, serif;
+        padding: 20px;
+        max-width: 900px;
+        margin: 0 auto;
+}
+
+h1, h2 {
+        padding-top: 15px;
+        color: #666;
+}
+
+h1 {
+        font-size: 1.6em;
+}
+
+h2 {
+        font-size: 1.4em;
+}
+
+h1.sec, h2.sec {
+        color: #664;
+}
+
+
+h3 {
+        font-weight: normal;
+        font-size: 1.1em;
+        padding: 10px 10px 10px 20px;
+        margin: 15px 10px 0px 0px;
+        border-left: 5px solid #e8e8d8;
+        cursor: pointer;
+}
+
+h3.sec {
+        background: #f8f8e8;
+        border-left: 5px solid #e8e8d8;
+}
+
+div.nav {
+	font-size: 0.9em;
+        border-bottom: 1px solid #ddd;
+        padding: 10px 10px 10px 0px;
+}
+
+a {
+        color: #a44;
+        text-decoration: none;
+}
+
+ol.papers {
+        margin-top: 0px;
+        list-style-type: none;
+        padding-left: 0px;
+}
+
+ol.closed, div.closed {
+        display: none;
+}
+
+div.sub {
+        margin-left: 30px;
+}
+
+li.papers {
+        color: #444;
+        background: #f8f8f8;
+        padding: 10px 10px 10px 20px;
+        margin: 10px 10px 10px 0px;
+        border-left: 5px solid #e8e8e8;
+}
+
+span.conf {
+        font-style: italic;
+}
+
+span.title {
+        color: #000;
+}
+
+div.stats1, div.stats2, div.stats3, div.stats4 {
+        margin-top: 7px;
+        font-size: 0.9em;
+        margin-right: 10px;
+        padding-right: 10px;
+        display: inline-block;
+}
+
+div.stats1 {
+        border-right: 2px solid #ddd;
+        width: 30%;
+}
+
+div.stats2 {
+        border-right: 2px solid #ddd;
+        width: 26%;
+}
+
+div.stats3 {
+        border-right: 2px solid #ddd;
+        width: 18%;
+}
+
+div.stats4 {
+        width: 11%;
+}
+
+
+div.block {
+        font-size: 1.1em;
+        width: 110px;
+        text-align: center;
+        font-weight: normal;
+
+        padding: 7px 20px 7px 20px;
+        margin: 4px 4px 4px 20px;
+        display: inline-block;
+}
+
+div.wide-block {
+	width: 40%;
+}
+
+div.sec-block {
+        background: #f8f8e8;
+        border-left: 5px solid #e8e8d8;
+}
+
+div.rank {
+        /* Circle */
+        border-radius: 50%;
+	width: 30px;
+	height: 30px;
+        float: right;
+
+        line-height: 30px;
+        text-align: center;
+
+        /* Rotate text */
+        -webkit-transform: rotate(10deg);
+        -moz-transform: rotate(10deg);
+        -ms-transform: rotate(10deg);
+        -o-transform: rotate(10deg);
+}
+
+div.sec-rank {
+       background: #e8e8d8;
+}
+
+p.footer {
+        border-top: 1px solid #ddd;
+        text-align: center;
+        padding-top: 20px;
+}
+
+p.update {
+        color: #444;
+        background: #f8f8f8;
+        padding: 10px 10px 10px 20px;
+        margin: 10px 10px 10px 0px;
+        border-left: 5px solid #e8e8e8;
+}
