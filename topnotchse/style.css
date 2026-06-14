@@ -74,6 +74,17 @@ span.conf {
         font-style: italic;
 }
 
+span.award {
+        display: inline-block;
+        margin-top: 4px;
+        font-size: 0.82em;
+        color: #7a5c00;
+        background: #fbf3d0;
+        border: 1px solid #e8d98a;
+        border-radius: 4px;
+        padding: 1px 7px;
+}
+
 span.title {
         color: #000;
 }
