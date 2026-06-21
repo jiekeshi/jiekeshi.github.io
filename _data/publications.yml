@@ -8,7 +8,7 @@ main:
     year: 2026
 
   - title: "Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering"
-    authors: Xiuwei Shang, Li Hu, Xiao Jiang, <strong><u>Jieke Shi</u></strong>, Junda He, Zhou Yang, Shaoyin Cheng, Guoqiang Chen, Weiming Zhang, and David Lo
+    authors: Xiuwei Shang, Li Hu, Xiao Jiang, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Junda He, Zhou Yang, Shaoyin Cheng, Guoqiang Chen, Weiming Zhang, and David Lo
     conference: 2026 IEEE/ACM 41st International Conference on Automated Software Engineering <strong>(ASE'26)</strong>.
     track: Research Track
     pages: 12
