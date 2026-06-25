@@ -28,7 +28,7 @@ main:
     conference: 2026 ACM 34th International Conference on the Foundations of Software Engineering <strong>(FSE'26)</strong>.
     track: Research Track
     pages: 24
-    pdf: ../assets/pdf/TEERepair.pdf
+    pdf: https://arxiv.org/abs/2605.22087
     code: https://github.com/CharlieMCY/TEERepair
     year: 2026
 
@@ -40,6 +40,13 @@ main:
     track: Research Track
     pages: 12
     award: IEEE Computer Society TCSE Distinguished Paper Award
+    year: 2026
+
+  - title: "Learning from the Test: Self-Referential Differential Testing for Deep RL Agents"
+    authors: Junda He, <strong><u>Jieke Shi</u></strong>, Zhou Yang, Mingfei Cheng, and David Lo
+    conference: 2026 ACM SIGSOFT 35th International Symposium on Software Testing and Analysis <strong>(ISSTA'26)</strong>.
+    track: Research Track
+    pages: 22
     year: 2026
 
   - title: "Hidden Licensing Risks in the LLMware Ecosystem"
@@ -54,7 +61,7 @@ main:
   - title: "Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution"
     authors: Chengyan Ma, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Ye Liu, Yuqing Niu, and David Lo
     conference: 2026 ACM 3rd International Conference on AI Foundation Models and Software Engineering <strong>(FORGE'26)</strong>.
-    pdf: ../assets/pdf/SymTEE.pdf
+    pdf: https://arxiv.org/abs/2605.22058
     track: New Idea Papers
     code: https://github.com/CharlieMCY/SymTEE
     pages: 5
