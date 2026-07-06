@@ -3,6 +3,7 @@
 <div style="background: #fffbe6; border-left: 3px solid #f5c518; padding: 8px 12px; margin-bottom: 12px; border-radius: 4px; font-size: 14px; line-height: 1.6;">📌 <strong>[Mar. 2026]</strong> Awarded the <strong>National Research Foundation (NRF) Postdoctoral Award</strong> by the Singapore NRF, the only recipient from SMU SCIS. The award provides up to 4 years of funding with a S$250,000 research grant to support independent research! If you are interested in collaborating or joining our group, feel free to <a href="mailto:jiekeshi@smu.edu.sg">reach out</a>.</div>
 
 <ul>
+  <li><strong>[Jun. 2026]</strong> Received the Distinguished Reviewer Award at AIware 2026!</li>
   <li><strong>[Jun. 2026]</strong> One paper is accepted by ISSTA 2026 after revision!</li>
   <li><strong>[May 2026]</strong> Two papers are accepted by ASE 2026!</li>
   <li><strong>[May 2026]</strong> Our SeCuRepair paper at ACL 2026 has been selected as Oral presentation and is an Outstanding Paper Candidate!</li>
