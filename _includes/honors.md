@@ -6,6 +6,7 @@
     <li>National Research Foundation (NRF) Postdoctoral Award (S$250,000), Singapore NRF</li>
     <li>ACM SIGSOFT Distinguished Paper Award, ICSE 2026</li>
     <li>IEEE Computer Society TCSE Distinguished Paper Awards, SANER 2026</li>
+    <li>SAC Highlight Award, ACL 2026</li>
     <li>Distinguished Reviewer Award, AIware 2026</li>
   </ul>
 </div>
