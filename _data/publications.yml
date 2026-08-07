@@ -1,5 +1,12 @@
 main:
   # --- 2026 ---
+  - title: "AgentChaos: Chaos Engineering for Agent Systems via Programmatic Fault Injection"
+    authors: Gou Tan, Zhensu Sun, <strong><u>Jieke Shi</u></strong>, Ting Zhang, Zilong He, Qingfu Wu, Shuai Liang, Weifeng Sun, Junda He, Pengfei Chen, Chuanfu Zhang, Lwin Khin Shar, and David Lo
+    conference: 2026 IEEE/ACM 41st International Conference on Automated Software Engineering <strong>(ASE'26)</strong>.
+    track: Research Track
+    pages: 12
+    year: 2026
+
   - title: "How Reasoning Shapes Social Bias in LLM-Generated Code?"
     authors: Weifeng Sun, <strong><u>Jieke Shi</u></strong>, Zhou Yang, Yuchen Chen, Hongyan Li, Meng Yan, and David Lo
     conference: 2026 IEEE/ACM 41st International Conference on Automated Software Engineering <strong>(ASE'26)</strong>.

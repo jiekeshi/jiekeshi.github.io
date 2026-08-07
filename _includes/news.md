@@ -6,7 +6,7 @@
   <li><strong>[Jul. 2026]</strong> Our paper has won a SAC Highlight Award at ACL 2026!</li>
   <li><strong>[Jul. 2026]</strong> Received the Distinguished Reviewer Award at AIware 2026!</li>
   <li><strong>[Jun. 2026]</strong> One paper is accepted by ISSTA 2026 after revision!</li>
-  <li><strong>[May 2026]</strong> Two papers are accepted by ASE 2026!</li>
+  <li><strong>[May 2026]</strong> Three papers are accepted by ASE 2026!</li>
   <li><strong>[May 2026]</strong> Our SeCuRepair paper at ACL 2026 has been selected as Oral presentation!</li>
   <li><strong>[Apr. 2026]</strong> One paper is accepted by ISSTA 2026!</li>
   <li><strong>[Apr. 2026]</strong> Two papers are accepted by ACL 2026!</li>
