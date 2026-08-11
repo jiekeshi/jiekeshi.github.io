@@ -1,24 +1,59 @@
+preprint:
+  - title: "Lossless Tensor Compression as Program Synthesis"
+    authors: <strong><u>Jieke Shi</u></strong>, Junda He, Wenjia Jiang, Weifeng Sun, Shidong Pan, Zhensu Sun, Chengran Yang, Peixin Zhang, Yifan Jia, Zhou Yang, Thong Hoang, Xiwei Xu, Zhenchang Xing, and David Lo
+    pdf: https://arxiv.org/abs/2608.02162
+    code: https://github.com/jiekeshi/Brevis
+    pages: 9
+    year: 2026
+
+  - title: "Finding Memory Leaks in C/C++ Programs via Neuro-Symbolic Augmented Static Analysis"
+    authors: Huihui Huang, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Bo Wang, Zhou Yang, and David Lo
+    pdf: https://arxiv.org/abs/2603.27224
+    code: https://github.com/jiekeshi/MemHint
+    pages: 16
+    year: 2026
+
+  - title: "Mut4All: Fuzzing Compilers via LLM-Synthesized Mutators Learned from Bug Reports"
+    authors: Bo Wang, Pengyang Wang, Chong Chen, Ming Deng, <strong><u>Jieke Shi</u></strong>, Qi Sun, Chengran Yang, Youfang Lin, Zhou Yang, Junjie Chen, Jun Sun, and David Lo
+    pdf: https://arxiv.org/abs/2507.19275
+    code: https://github.com/sososopy/Mut4All-Artifacts
+    pages: 28
+    year: 2025
+
+  - title: "DITING: A Static Analyzer for Identifying Bad Partitioning Issues in TEE Applications"
+    authors: Chengyan Ma, Ruidong Han, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Ye Liu, Yuqing Niu, Di Lu, Chuang Tian, Jianfeng Ma, Debin Gao, and David Lo
+    pdf: https://arxiv.org/abs/2502.15281
+    code: https://github.com/CharlieMCY/PartitioningE-in-TEE
+    pages: 13
+    year: 2025
+
 main:
   # --- 2026 ---
   - title: "AgentChaos: Chaos Engineering for Agent Systems via Programmatic Fault Injection"
     authors: Gou Tan, Zhensu Sun, <strong><u>Jieke Shi</u></strong>, Ting Zhang, Zilong He, Qingfu Wu, Shuai Liang, Weifeng Sun, Junda He, Pengfei Chen, Chuanfu Zhang, Lwin Khin Shar, and David Lo
     conference: 2026 IEEE/ACM 41st International Conference on Automated Software Engineering <strong>(ASE'26)</strong>.
     track: Research Track
-    pages: 12
+    pdf: https://arxiv.org/abs/2608.06790
+    code: https://github.com/IntelligentDDS/AgentChaos
+    pages: 13
     year: 2026
 
   - title: "How Reasoning Shapes Social Bias in LLM-Generated Code?"
     authors: Weifeng Sun, <strong><u>Jieke Shi</u></strong>, Zhou Yang, Yuchen Chen, Hongyan Li, Meng Yan, and David Lo
     conference: 2026 IEEE/ACM 41st International Conference on Automated Software Engineering <strong>(ASE'26)</strong>.
     track: Research Track
-    pages: 12
+    pdf: https://arxiv.org/abs/2608.06829
+    code: https://zenodo.org/records/20424151
+    pages: 13
     year: 2026
 
   - title: "Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering"
     authors: Xiuwei Shang, Li Hu, Xiao Jiang, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Junda He, Zhou Yang, Shaoyin Cheng, Guoqiang Chen, Weiming Zhang, and David Lo
     conference: 2026 IEEE/ACM 41st International Conference on Automated Software Engineering <strong>(ASE'26)</strong>.
     track: Research Track
-    pages: 12
+    pdf: https://arxiv.org/abs/2608.07038
+    code: https://zenodo.org/records/19310393
+    pages: 13
     year: 2026
 
   - title: "Compiling Code LLMs into Lightweight Executables"

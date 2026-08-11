@@ -7,9 +7,9 @@
 <ul style="margin:5px 0 5px;">
   <li>PC (Ideas, Visions and Reflections Track), <autocolor>International Conference on the Foundations of Software Engineering (FSE)</autocolor> <autocolor>2026</autocolor></li>
   <li>PC, <autocolor>Workshop on Human-Centered AI for Software Engineering (HumanAISE)</autocolor> <autocolor>2026</autocolor></li>
-  <li>PC (Main Track), <autocolor>International Conference on AI-powered Software (AIware)</autocolor> <autocolor>2026</autocolor></li>
+  <li>PC (Main Track &amp; Benchmark and Dataset Track), <autocolor>International Conference on AI-powered Software (AIware)</autocolor> <autocolor>2026</autocolor></li>
   <li>PC (Research Papers &amp; Visions and Emerging Results Track), <autocolor>International Conference on Software Maintenance and Evolution (ICSME)</autocolor> <autocolor>2026</autocolor></li>
-  <li>Shadow PC, <autocolor>International Conference on Software Engineering (ICSE)</autocolor> <autocolor>2025–2026</autocolor></li>
+  <li>Shadow PC, <autocolor>International Conference on Software Engineering (ICSE)</autocolor> <autocolor>2025–2027</autocolor></li>
   <li>Junior PC, <autocolor>Mining Software Repositories Conference (MSR)</autocolor> <autocolor>2024–2026</autocolor></li>
   <li>PC, <autocolor>International Workshop on Green and Sustainable Software (GREENS@ICSE)</autocolor> <autocolor>2025–2026</autocolor></li>
   <li>Shadow PC &amp; Artifact Evaluation PC, <autocolor>European Conference on Computer Systems (EuroSys)</autocolor> <autocolor>2026</autocolor></li>

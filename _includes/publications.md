@@ -5,13 +5,48 @@
 <p style="margin: 10px 0 20px; color: #555; font-size: 14px; line-height: 1.6;">
 I believe great research thrives on collaboration. I aim to lead 1&ndash;2 first-author projects each year while dedicating the rest of my time to collaborating with peers and mentoring students.
 <br><span style="font-size: 12px; color: #888;">&#128231; Corr. = corresponding author &nbsp;&middot;&nbsp; &#9878;&#65039; Co-1st = co-first author</span>
-<br><span style="font-size: 12px; color: #888;">For preprints, please refer to my <a href="https://scholar.google.com/citations?user=wIbgZVoAAAAJ" target="_blank" style="color: #888;">Google Scholar</a> or <a href="https://dblp.org/pid/246/7302.html" target="_blank" style="color: #888;">DBLP</a>.</span>
 </p>
 
+{% assign preprints = site.data.publications.preprint %}
 {% assign pubs = site.data.publications.main %}
-{% assign grouped = pubs | group_by: "year" | sort: "name" | reverse %}
+
+{% if preprints and preprints.size > 0 %}
+<h3 style="margin: 10px 0px 0px;">Preprints</h3>
+{% assign ptotal = preprints.size %}
+<div class="publications" style="margin-top: 1rem;">
+<ol class="bibliography" style="counter-reset: none; list-style: none; padding-left: 0;">
+{% for link in preprints %}
+<li>
+<div class="pub-row" style="display: flex; align-items: flex-start;">
+  <div style="flex-shrink: 0; margin-right: 15px;">
+    <abbr class="badge">P{{ ptotal }}.</abbr>
+    {% assign ptotal = ptotal | minus: 1 %}
+  </div>
+  <div style="flex-grow: 1;">
+      <div class="title"><a href="{{ link.pdf }}">{{ link.title }}</a></div>
+      <div class="author">{{ link.authors }}</div>
+      {% if link.conference %}
+      <div class="periodical"><em>{{ link.conference }}</em></div>
+      {% endif %}
+    <div class="links">
+      {% if link.pdf %}
+      <a href="{{ link.pdf }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF{% if link.pages %} ({{ link.pages }} pages){% endif %}</a>
+      {% endif %}
+      {% if link.code %}
+      <a href="{{ link.code }}" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+</li>
+{% endfor %}
+</ol>
+</div>
+<hr style="margin: 30px 0; border: none; border-top: 1px solid #ddd;">
+{% endif %}
 
 {% assign total = pubs.size %}
+{% assign grouped = pubs | group_by: "year" | sort: "name" | reverse %}
 
 {% for group in grouped %}
 <div class="year-block">
