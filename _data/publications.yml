@@ -20,15 +20,16 @@ preprint:
     pages: 28
     year: 2025
 
+main:
+  # --- 2026 ---
   - title: "DITING: A Static Analyzer for Identifying Bad Partitioning Issues in TEE Applications"
     authors: Chengyan Ma, Ruidong Han, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Ye Liu, Yuqing Niu, Di Lu, Chuang Tian, Jianfeng Ma, Debin Gao, and David Lo
+    conference: IEEE Transactions on Software Engineering <strong>(TSE)</strong>, 2026.
     pdf: https://arxiv.org/abs/2502.15281
     code: https://github.com/CharlieMCY/PartitioningE-in-TEE
     pages: 13
-    year: 2025
+    year: 2026
 
-main:
-  # --- 2026 ---
   - title: "AgentChaos: Chaos Engineering for Agent Systems via Programmatic Fault Injection"
     authors: Gou Tan, Zhensu Sun, <strong><u>Jieke Shi</u></strong>, Ting Zhang, Zilong He, Qingfu Wu, Shuai Liang, Weifeng Sun, Junda He, Pengfei Chen, Chuanfu Zhang, Lwin Khin Shar, and David Lo
     conference: 2026 IEEE/ACM 41st International Conference on Automated Software Engineering <strong>(ASE'26)</strong>.

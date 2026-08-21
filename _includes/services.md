@@ -57,6 +57,9 @@
   <li><autocolor>Shanghai Jiao Tong University</autocolor>, Research Seminar, Dec 2025<br/>
       <em>“Optimizing and Fortifying AI Software through the Lens of Artifact Synthesis”</em></li>
 
+  <li><autocolor>Singapore Programming Languages Summit 2025</autocolor>, Invited Talk, Nov 2025<br/>
+      <em>“Optimizing and Fortifying AI Software through the Lens of Artifact Synthesis”</em></li>
+
   <li><autocolor>A-Mobile Workshop of ASE 2025</autocolor>, Keynote, Nov 2025, Invited by Guozhu Meng <br/>
       <em>“Optimizing and Fortifying AI Software through the Lens of Artifact Synthesis”</em></li>
 
