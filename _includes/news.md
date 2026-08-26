@@ -3,6 +3,7 @@
 <div style="background: #fffbe6; border-left: 3px solid #f5c518; padding: 8px 12px; margin-bottom: 12px; border-radius: 4px; font-size: 14px; line-height: 1.6;">📌 <strong>[Mar. 2026]</strong> Awarded the <strong>National Research Foundation (NRF) Postdoctoral Award</strong> by the Singapore NRF, the only recipient from SMU SCIS. The award provides up to 4 years of funding with a S$250,000 research grant to support independent research! If you are interested in collaborating or joining our group, feel free to <a href="mailto:jiekeshi@smu.edu.sg">reach out</a>.</div>
 
 <ul>
+  <li><strong>[Aug. 2026]</strong> Our FSE 2026 work is featured by <a href="https://research.smu.edu.sg/news/2026/aug/boring-software-engineer-wins-big" target="_blank">SMU Research News</a>!</li>
   <li><strong>[Aug. 2026]</strong> One paper is accepted by IEEE TSE!</li>
   <li><strong>[Jul. 2026]</strong> Our paper has won a SAC Highlight Award at ACL 2026!</li>
   <li><strong>[Jul. 2026]</strong> Received the Distinguished Reviewer Award at AIware 2026!</li>
