@@ -5,8 +5,12 @@
 <h4 style="margin:10px 10px 0;">Program Committee / Reviewer</h4>
 
 <ul style="margin:5px 0 5px;">
+  <li>PC, <autocolor>AAAI Conference on Artificial Intelligence (AAAI)</autocolor> <autocolor>2027</autocolor></li>
+  <li>PC, <autocolor>IEEE International Conference on Software Analysis, Evolution and Reengineering (SANER)</autocolor> <autocolor>2027</autocolor></li>
+  <li>PC, <autocolor>Mining Software Repositories Conference (MSR)</autocolor> <autocolor>2027</autocolor></li>
   <li>PC (Ideas, Visions and Reflections Track), <autocolor>International Conference on the Foundations of Software Engineering (FSE)</autocolor> <autocolor>2026</autocolor></li>
   <li>PC, <autocolor>Workshop on Human-Centered AI for Software Engineering (HumanAISE)</autocolor> <autocolor>2026</autocolor></li>
+  <li>PC, <autocolor>ICML Workshop on Deep Learning for Code (DL4C@ICML)</autocolor> <autocolor>2026</autocolor></li>
   <li>PC (Main Track &amp; Benchmark and Dataset Track), <autocolor>International Conference on AI-powered Software (AIware)</autocolor> <autocolor>2026</autocolor></li>
   <li>PC (Research Papers &amp; Visions and Emerging Results Track), <autocolor>International Conference on Software Maintenance and Evolution (ICSME)</autocolor> <autocolor>2026</autocolor></li>
   <li>Shadow PC, <autocolor>International Conference on Software Engineering (ICSE)</autocolor> <autocolor>2025–2027</autocolor></li>

@@ -6,13 +6,6 @@ preprint:
     pages: 9
     year: 2026
 
-  - title: "Finding Memory Leaks in C/C++ Programs via Neuro-Symbolic Augmented Static Analysis"
-    authors: Huihui Huang, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Bo Wang, Zhou Yang, and David Lo
-    pdf: https://arxiv.org/abs/2603.27224
-    code: https://github.com/jiekeshi/MemHint
-    pages: 16
-    year: 2026
-
   - title: "Mut4All: Fuzzing Compilers via LLM-Synthesized Mutators Learned from Bug Reports"
     authors: Bo Wang, Pengyang Wang, Chong Chen, Ming Deng, <strong><u>Jieke Shi</u></strong>, Qi Sun, Chengran Yang, Youfang Lin, Zhou Yang, Junjie Chen, Jun Sun, and David Lo
     pdf: https://arxiv.org/abs/2507.19275
@@ -22,6 +15,15 @@ preprint:
 
 main:
   # --- 2026 ---
+  - title: "Finding Memory Leaks in C/C++ Programs via Neuro-Symbolic Augmented Static Analysis"
+    authors: Huihui Huang, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Bo Wang, Zhou Yang, and David Lo
+    conference: 2026 43rd Annual Computer Security Applications Conference <strong>(ACSAC'26)</strong>.
+    track: Technical Paper
+    pdf: https://arxiv.org/abs/2603.27224
+    code: https://github.com/jiekeshi/MemHint
+    pages: 16
+    year: 2026
+
   - title: "DITING: A Static Analyzer for Identifying Bad Partitioning Issues in TEE Applications"
     authors: Chengyan Ma, Ruidong Han, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Ye Liu, Yuqing Niu, Di Lu, Chuang Tian, Jianfeng Ma, Debin Gao, and David Lo
     conference: IEEE Transactions on Software Engineering <strong>(TSE)</strong>, 2026.
