@@ -8,6 +8,7 @@
     <li>IEEE Computer Society TCSE Distinguished Paper Awards, SANER 2026</li>
     <li>SAC Highlight Award, ACL 2026</li>
     <li>Distinguished Reviewer Award, AIware 2026</li>
+    <li>Distinguished PC Member Award, ICSME 2026 (Visions and Emerging Results Track)</li>
   </ul>
 </div>
 
