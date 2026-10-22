@@ -14,6 +14,19 @@ preprint:
     year: 2025
 
 main:
+  # --- 2027 ---
+  - title: "Missing Security-Fix Backporting for GitHub Actions Workflows"
+    authors: Chengyan Ma, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Weifeng Sun, Yuqing Niu, Yunbo Lyu, Zhou Yang, and David Lo
+    conference: 2027 IEEE/ACM 49th International Conference on Software Engineering <strong>(ICSE'27)</strong>.
+    track: Research Track
+    year: 2027
+
+  - title: "When Agreement Hides Disagreement: Are We Evaluating LLM Judges Fairly?"
+    authors: Junda He, Xiangyu Shan, <strong><u>Jieke Shi</u></strong>, Yunbo Lyu, Gou Tan, Xiuwei Shang, Zhou Yang, Christoph Treude, and David Lo
+    conference: 2027 IEEE/ACM 49th International Conference on Software Engineering <strong>(ICSE'27)</strong>.
+    track: Research Track
+    year: 2027
+
   # --- 2026 ---
   - title: "Finding Memory Leaks in C/C++ Programs via Neuro-Symbolic Augmented Static Analysis"
     authors: Huihui Huang, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Bo Wang, Zhou Yang, and David Lo
