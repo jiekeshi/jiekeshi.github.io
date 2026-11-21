@@ -16,7 +16,7 @@ preprint:
 main:
   # --- 2027 ---
   - title: "Missing Security-Fix Backporting for GitHub Actions Workflows"
-    authors: Chengyan Ma, <strong><u>Jieke Shi</u></strong>, Ruidong Han, Weifeng Sun, Yuqing Niu, Yunbo Lyu, Zhou Yang, and David Lo
+    authors: Chengyan Ma, <strong><u>Jieke Shi (&#128231; Corr.)</u></strong>, Ruidong Han, Weifeng Sun, Yuqing Niu, Yunbo Lyu, Zhou Yang, and David Lo
     conference: 2027 IEEE/ACM 49th International Conference on Software Engineering <strong>(ICSE'27)</strong>.
     track: Research Track
     year: 2027
