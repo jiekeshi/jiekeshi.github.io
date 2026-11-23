@@ -61,11 +61,6 @@
 \homepage{https://jiekeshi.tech}
 \extrainfo{College of Integrative Studies, B2, RISE Center, 10 Canning Rise, Singapore 179873}
 
-% Search for REVIEW to locate provisional contributions.
-% Set the switch to \showcreditreviewtrue to highlight them in the PDF.
-\newif\ifshowcreditreview
-\showcreditreviewfalse
-\newcommand{\proposedrole}[1]{\ifshowcreditreview\textcolor{orange!70!black}{#1}\else#1\fi}
 % Each list numbers down from its own total, determined on the next LaTeX pass.
 \newtotcounter{cvpublication}
 \newtotcounter{cvpreprint}
@@ -74,16 +69,6 @@
   \stepcounter{#1}%
   \cvitem[6pt]{[\publicationnumber{#1}]}%
 }
-\makeatletter
-\newcommand{\publicationlabel}[2][cvpublication]{%
-  \begingroup
-  \phantomsection
-  \edef\@currentlabel{\publicationnumber{#1}}%
-  \label{#2}%
-  \endgroup
-}
-\makeatother
-\newcommand{\pubref}[1]{\hyperref[#1]{[\ref*{#1}]}}
 \newcommand{\creditroles}[1]{\par\smallskip {\small\textbf{CRediT roles:} #1.\par}}
 \newcommand{\dissertationnote}[1]{{\small\textbf{Dissertation relation:} #1}}
 
@@ -92,12 +77,15 @@
 \ifdefined\pagenumberwidth\addtolength{\pagenumberwidth}{1em}\fi
 \makecvtitle
 
-\section{\textbf{\uppercase{Research Interests}}}
+\section{\textbf{\uppercase{Research Overview}}}
 
 \cvitem{}{Software Engineering, Program Synthesis, LLM4Code, Performance Engineering, Software Analytics, Mining Software Repositories, Empirical Study, Software Testing}
 \vspace{0.5em}
 
 \cvitem{}{I develop \textbf{synthesis-assisted techniques} to \textbf{optimize the performance} of AI software, particularly LLMs trained on code from open-source repositories, and to \textbf{validate the safety} of software systems, from finding bugs in \textbf{core software infrastructure} to detecting safety violations in \textbf{AI systems that use neural controllers}.}
+\vspace{0.5em}
+
+\cvitem{}{For the MSR community, my work supports the efficient deployment of models learned from open-source code repositories and the validation of software reliability using mined knowledge and synthesized test artifacts.}
 \vspace{0.5em}
 
 \cvitem{}{I have published \textbf{43 papers} in top-tier venues such as ICSE, ASE, FSE, MSR, TOSEM, and TSE, \textbf{16 of which list me as first, co-first, or corresponding author}. My work has received \textbf{7 paper awards and honors} and \textbf{2 reviewer/PC awards}. My research has also had \textbf{real-world open-source impact}, including reporting \textbf{504 bugs, vulnerabilities, and license violations} in projects such as GCC, Clang, rustc, OpenSSL, curl, FFmpeg, and OP-TEE, of which \textbf{246 have been confirmed or fixed}.}
@@ -141,7 +129,7 @@
 \Needspace{8\baselineskip}
 \subsection{2027}
 
-\publicationitem{\publicationlabel{pub:workflow-backports}Chengyan Ma, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ruidong Han, Weifeng Sun, Yuqing Niu, Yunbo Lyu, Zhou Yang, and David Lo.
+\publicationitem{Chengyan Ma, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ruidong Han, Weifeng Sun, Yuqing Niu, Yunbo Lyu, Zhou Yang, and David Lo.
 \textit{``Missing Security-Fix Backporting for GitHub Actions Workflows''}.
 In Proceedings of the 49th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2027}, Research Track).
 \creditroles{Conceptualization, Methodology, Software, Validation, Writing -- review \& editing, Supervision}
@@ -151,24 +139,23 @@ In Proceedings of the 49th IEEE/ACM International Conference on Software Enginee
 \publicationitem{Junda He, Xiangyu Shan, \textbf{Jieke Shi}, Yunbo Lyu, Gou Tan, Xiuwei Shang, Zhou Yang, Christoph Treude, and David Lo.
 \textit{``When Agreement Hides Disagreement: Are We Evaluating LLM Judges Fairly?''}.
 In Proceedings of the 49th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2027}, Research Track).
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Investigation, Methodology, Formal Analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Methodology, Formal Analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of disagreement among LLM judges.}
 }
 
 \Needspace{8\baselineskip}
 \subsection{2026}
 
-\publicationitem{\publicationlabel{pub:memory-leaks}Huihui Huang, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Bo Wang, Zhou Yang, and David Lo.
+\publicationitem{Huihui Huang, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Bo Wang, Zhou Yang, and David Lo.
 \textit{``Finding Memory Leaks in C/C++ Programs via Neuro-Symbolic Augmented Static Analysis''}.
 In Proceedings of the Annual Computer Security Applications Conference (\textbf{ACSAC 2026}, Technical Paper), 16 pages.
 [\href{https://arxiv.org/abs/2603.27224}{PDF}]
 [\href{https://github.com/jiekeshi/MemHint}{Code}]
-\creditroles{Conceptualization, Methodology, Software, Validation, Writing -- review \& editing, Supervision}
+\creditroles{Conceptualization, Methodology, Software, Writing -- review \& editing, Supervision}
 \dissertationnote{Separate study of memory-leak detection in C/C++ programs.}
 }
 
-\publicationitem{\publicationlabel{pub:diting}Chengyan Ma, Ruidong Han, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ye Liu, Yuqing Niu, Di Lu, Chuang Tian, Jianfeng Ma, Debin Gao, and David Lo.
+\publicationitem{Chengyan Ma, Ruidong Han, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ye Liu, Yuqing Niu, Di Lu, Chuang Tian, Jianfeng Ma, Debin Gao, and David Lo.
 \textit{``DITING: A Static Analyzer for Identifying Bad Partitioning Issues in TEE Applications''}.
 IEEE Transactions on Software Engineering (\textbf{TSE 2026}).
 [\href{https://arxiv.org/abs/2502.15281}{PDF}]
@@ -180,20 +167,18 @@ IEEE Transactions on Software Engineering (\textbf{TSE 2026}).
 \publicationitem{Gou Tan, Zhensu Sun, \textbf{Jieke Shi}, Ting Zhang, Zilong He, Qingfu Wu, Shuai Liang, Weifeng Sun, Junda He, Pengfei Chen, Chuanfu Zhang, Lwin Khin Shar, and David Lo.
 \textit{``AgentChaos: Chaos Engineering for Agent Systems via Programmatic Fault Injection''}.
 In Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (\textbf{ASE 2026}, Research Track).
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Investigation, Methodology, Formal Analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Methodology, Formal Analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of fault injection in agentic systems.}
 }
 
 \publicationitem{Weifeng Sun, \textbf{Jieke Shi}, Zhou Yang, Yuchen Chen, Hongyan Li, Meng Yan, and David Lo.
 \textit{``How Reasoning Shapes Social Bias in LLM-Generated Code?''}.
 In Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (\textbf{ASE 2026}, Research Track).
-% REVIEW: Confirm your role in securing the NRF funding acknowledged by this paper and in revising the manuscript.
-\creditroles{\proposedrole{Conceptualization, Methodology, Validation, Writing -- review \& editing, Visualization}, \proposedrole{Resources, Funding acquisition}}
+\creditroles{Conceptualization, Methodology, Validation, Writing -- review \& editing, Visualization, Resources, Funding acquisition}
 \dissertationnote{Separate study of social bias in code generated by LLMs.}
 }
 
-\publicationitem{\publicationlabel{pub:binary-eval}Xiuwei Shang, Li Hu, Xiao Jiang, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Junda He, Zhou Yang, Shaoyin Cheng, Guoqiang Chen, Weiming Zhang, and David Lo.
+\publicationitem{Xiuwei Shang, Li Hu, Xiao Jiang, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Junda He, Zhou Yang, Shaoyin Cheng, Guoqiang Chen, Weiming Zhang, and David Lo.
 \textit{``Beyond Text Matching: Towards Reference-Free Evaluation for Human-Oriented Binary Reverse Engineering''}.
 In Proceedings of the 41st IEEE/ACM International Conference on Automated Software Engineering (\textbf{ASE 2026}, Research Track).
 \creditroles{Conceptualization, Methodology, Validation, Writing -- review \& editing, Supervision}
@@ -204,27 +189,26 @@ In Proceedings of the 41st IEEE/ACM International Conference on Automated Softwa
 \textit{``ESG Reporting Lifecycle Management with Large Language Models and AI Agents''}.
 In Proceedings of the 23rd IEEE International Conference on Software Architecture (\textbf{ICSA 2026}, Software Architecture in Practice Track).
 [\href{https://arxiv.org/abs/2603.10646}{PDF}]
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Writing -- review \& editing}}
+\creditroles{Writing -- review \& editing}
 \dissertationnote{Separate study of agent-supported sustainability reporting.}
 }
 
 \publicationitem{\textbf{Jieke Shi}, Junda He, Zhou Yang, Chengran Yang, Mykhailo Klymenko, Thong Hoang, Sherry Xu, Zhenchang Xing, and David Lo.
 \textit{``Compiling Code LLMs into Lightweight Executables''}.
-In Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (\textbf{FSE 2026}, Research Track, \href{https://research.smu.edu.sg/news/2026/aug/boring-software-engineer-wins-big}{\textbf{\textcolor{red}{\scalebox{0.8}{\emoji{newspaper}}Featured by SMU Research News}}}), 24 pages.
+In Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (\textbf{FSE 2026}, Research Track, \href{https://research.smu.edu.sg/news/2026/aug/boring-software-engineer-wins-big}{\textbf{\textcolor{red}{\scalebox{0.8}{\emoji{newspaper}}Research News Feature}}}), 24 pages.
 [\href{https://arxiv.org/abs/2603.29813}{PDF}] [\href{https://github.com/jiekeshi/ditto}{Code}]
 \creditroles{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Visualization, Writing -- original draft, Writing -- review \& editing}
 \dissertationnote{Chapter 5.}
 }
 
-\publicationitem{\publicationlabel{pub:tee-repair}Chengyan Ma, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ruidong Han, Ye Liu, Feng Li, Yuqing Niu, and David Lo.
+\publicationitem{Chengyan Ma, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ruidong Han, Ye Liu, Feng Li, Yuqing Niu, and David Lo.
 \textit{``Automated Repair of TEE Partitioning Issues via DSL-Guided and LLM-Assisted Patching''}.
 In Proceedings of the 34th ACM International Conference on the Foundations of Software Engineering (\textbf{FSE 2026}, Research Track), 24 pages.
-\creditroles{\proposedrole{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}}
+\creditroles{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}
 \dissertationnote{Separate study of automated repair in trusted execution environments.}
 }
 
-\publicationitem{\publicationlabel{pub:tee-practice}Yuqing Niu, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ruidong Han, Ye Liu, Chengyan Ma, Yunbo Lyu, and David Lo.
+\publicationitem{Yuqing Niu, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Ruidong Han, Ye Liu, Chengyan Ma, Yunbo Lyu, and David Lo.
 \textit{``What You Trust Is Insecure: Demystifying How Developers (Mis)Use Trusted Execution Environments in Practice''}.
 In Proceedings of the 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering (\textbf{SANER 2026}, Research Track, \textbf{\textcolor{red}{\scalebox{0.8}{\emoji{trophy}}IEEE Computer Society TCSE Distinguished Paper Award}}).
 [\href{https://arxiv.org/abs/2512.17363}{PDF}]
@@ -238,26 +222,24 @@ In Proceedings of the 33rd IEEE International Conference on Software Analysis, E
 In Proceedings of the 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (\textbf{ISSTA 2026}, Research Track).
 [\href{https://arxiv.org/abs/2602.10758}{PDF}]
 [\href{https://anonymous.4open.science/r/LiAgent-DB35}{Code}]
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Investigation, Methodology, Formal Analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Methodology, Formal Analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate repository mining study of licensing risks in AI software.}
 }
 
 \publicationitem{Junda He, \textbf{Jieke Shi}, Zhou Yang, Mingfei Cheng, and David Lo.
 \textit{``Learning from the Test: Self-Referential Differential Testing for Deep RL Agents''}.
 In Proceedings of the 35th ACM SIGSOFT International Symposium on Software Testing and Analysis (\textbf{ISSTA 2026}, Research Track). [\href{https://arxiv.org/abs/2608.22284}{PDF}]
-[\href{https://arxiv.org/abs/2608.22284}{Code}]
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{
-  Investigation, Methodology, Formal Analysis, Validation, Writing -- review \& editing}}
+[\href{https://doi.org/10.6084/m9.figshare.29196884}{Code}]
+\creditroles{
+  Investigation, Methodology, Formal Analysis, Writing -- review \& editing}
 \dissertationnote{Related work on testing reinforcement-learning agents, outside the controller chapters.}
 }
 
-\publicationitem{\publicationlabel{pub:tee-validation}Chengyan Ma, \textbf{Jieke Shi}, Ruidong Han, Ye Liu, Yuqing Niu, and David Lo.
+\publicationitem{Chengyan Ma, \textbf{Jieke Shi}, Ruidong Han, Ye Liu, Yuqing Niu, and David Lo.
 \textit{``Finding Missing Input Validation in TEEs via LLM-Assisted Symbolic Execution''}.
 In Proceedings of the 3rd ACM International Conference on AI Foundation Models and Software Engineering (\textbf{FORGE 2026}, Research Papers Track, New Idea Paper).
 [\href{https://arxiv.org/abs/2605.22058}{PDF}] [\href{https://github.com/CharlieMCY/SymTEE}{Code}]
-\creditroles{\proposedrole{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}}
+\creditroles{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}
 \dissertationnote{Separate study of input validation in trusted execution environments.}
 }
 
@@ -265,17 +247,16 @@ In Proceedings of the 3rd ACM International Conference on AI Foundation Models a
 \textit{``Think Like Human Developers: Harnessing Community Knowledge for Structured Code Reasoning''}.
 In Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2026}, Research Track, \textbf{\textcolor{red}{\scalebox{0.8}{\emoji{trophy}}ACM SIGSOFT Distinguished Paper Award}}).
 [\href{https://arxiv.org/pdf/2503.14838}{PDF}]
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of training data for LLM reasoning.}
 }
 
-\publicationitem{\publicationlabel{pub:issue-commit}Huihui Huang, Ratnadira Widyasari, Ting Zhang, Ivana Clairine IRSAN, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Han Wei Ang, Frank Liauw, Eng Lieh Ouh, Lwin Khin Shar, Hong Jin Kang, and David Lo.
+\publicationitem{Huihui Huang, Ratnadira Widyasari, Ting Zhang, Ivana Clairine IRSAN, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Han Wei Ang, Frank Liauw, Eng Lieh Ouh, Lwin Khin Shar, Hong Jin Kang, and David Lo.
 \textit{``Back to the Basics: Rethinking Issue-Commit Linking with LLM-Assisted Retrieval''}.
 In Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2026}, Research Track).
 [\href{https://arxiv.org/abs/2507.09199}{PDF}]
 [\href{https://figshare.com/s/d495f11c4cc5c1c72e68}{Code}]
-\creditroles{\proposedrole{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}}
+\creditroles{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}
 \dissertationnote{Separate repository mining study on linking issue reports to commits.}
 }
 
@@ -287,22 +268,20 @@ ACM Transactions on Software Engineering and Methodology (\textbf{TOSEM 2026}).
 \dissertationnote{Related literature review on LLM-based evaluation in software engineering.}
 }
 
-\publicationitem{\publicationlabel{pub:penforge}Huihui Huang, \textbf{Jieke Shi}, Junkai Chen, Ting Zhang, Yikun Li, Chengran Yang, Eng Lieh Ouh, Lwin Khin Shar, and David Lo.
+\publicationitem{Huihui Huang, \textbf{Jieke Shi}, Junkai Chen, Ting Zhang, Yikun Li, Chengran Yang, Eng Lieh Ouh, Lwin Khin Shar, and David Lo.
 \textit{``PenForge: On-the-Fly Expert Agent Construction for Automated Penetration Testing''}.
 In Proceedings of the 48th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2026}, NIER Track).
 [\href{https://arxiv.org/abs/2601.06910}{PDF}]
 [\href{https://github.com/huanghuihui0904/PenForge}{Code}]
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}}
+\creditroles{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Supervision}
 \dissertationnote{Separate study of agent-based security testing.}
 }
 
-\publicationitem{\publicationlabel{pub:securevibebench}Junkai Chen, Huihui Huang, Yunbo Lyu, Junwen An, \textbf{Jieke Shi}, Chengran Yang, Ting Zhang, Haoye Tian, Yikun Li, Zhenhao Li, Xin Zhou, Xing Hu, and David Lo.
+\publicationitem{Junkai Chen, Huihui Huang, Yunbo Lyu, Junwen An, \textbf{Jieke Shi}, Chengran Yang, Ting Zhang, Haoye Tian, Yikun Li, Zhenhao Li, Xin Zhou, Xing Hu, and David Lo.
 \textit{``SecureVibeBench: Evaluating Secure Coding Capabilities of Code Agents with Realistic Vulnerability Scenarios''}.
 In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (\textbf{ACL 2026}, Main Conference, Long Paper).
 [\href{https://arxiv.org/abs/2509.22097}{PDF}][\href{https://github.com/iCSawyer/SecureVibeBench}{Code}]
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Conceptualization, Methodology, Data curation, Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Conceptualization, Methodology, Data curation, Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate benchmark for evaluating code agents on repository-level tasks.}
 }
 
@@ -310,8 +289,7 @@ In Proceedings of the 64th Annual Meeting of the Association for Computational L
 \textit{``SeCuRepair: Semantics-Aligned, Curriculum-Driven, and Reasoning-Enhanced Vulnerability Repair Framework''}.
 In Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics (\textbf{ACL 2026}, Main Conference, Long Paper, Oral, \textbf{\textcolor{red}{\scalebox{0.8}{\emoji{trophy}}SAC Highlight Award}}).
 [\href{https://arxiv.org/abs/2510.01002}{PDF}]
-% REVIEW: Confirm the proposed contribution(s) for this paper.
-\creditroles{\proposedrole{Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of automated vulnerability repair.}
 }
 
@@ -350,13 +328,12 @@ ACM Transactions on Software Engineering and Methodology (\textbf{TOSEM 2025}).
 \dissertationnote{Related empirical work on the code LLM ecosystem.}
 }
 
-\publicationitem{\publicationlabel{pub:ai-assistants}Yunbo Lyu, Zhou Yang, \textbf{Jieke Shi}, Jianming Chang, Yue Liu, and David Lo.
+\publicationitem{Yunbo Lyu, Zhou Yang, \textbf{Jieke Shi}, Jianming Chang, Yue Liu, and David Lo.
 \textit{``"My productivity is boosted, but ..." Demystifying Users' Perception on AI Coding Assistants''}.
 In Proceedings of the 40th IEEE/ACM International Conference on Automated Software Engineering (\textbf{ASE 2025}, Research Track, \textbf{\textcolor{red}{\scalebox{0.8}{\emoji{trophy}}ACM SIGSOFT Distinguished Paper Award}}).
 [\href{https://arxiv.org/pdf/2508.12285}{PDF}]
 [\href{https://figshare.com/s/47c5ce42fd7e1dee69fe}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Methodology, Data curation, Formal analysis, Validation, Writing -- review \& editing}, Supervision}
+\creditroles{Methodology, Data curation, Formal analysis, Validation, Writing -- review \& editing, Supervision}
 \dissertationnote{Chapter 5 cites this study in motivating local deployment of code models.}
 }
 
@@ -365,8 +342,7 @@ In Proceedings of the 40th IEEE/ACM International Conference on Automated Softwa
 ACM Transactions on Software Engineering and Methodology (\textbf{TOSEM 2025}).
 [\href{https://doi.org/10.1145/3707450}{PDF}]
 [\href{https://github.com/yangzhou6666/ASRProphet}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Software, Data curation, \proposedrole{Investigation, Validation, Writing -- review \& editing}}
+\creditroles{Software, Data curation, Investigation, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of test prioritization for speech recognition.}
 }
 
@@ -377,8 +353,7 @@ ACM Transactions on Software Engineering and Methodology (\textbf{TOSEM 2025}).
 \textit{``Gotcha! This Model Uses My Code! Evaluating Membership Leakage Risks in Code Models''}.
 IEEE Transactions on Software Engineering (\textbf{TSE 2024}).
 [\href{https://arxiv.org/pdf/2310.01166}{PDF}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Formal analysis, Validation}, Visualization, Writing -- review \& editing}
+\creditroles{Formal analysis, Validation, Visualization, Writing -- review \& editing}
 \dissertationnote{Chapter 6 cites this study in its discussion of future work on code models.}
 }
 
@@ -395,18 +370,16 @@ In Proceedings of the 46th IEEE/ACM International Conference on Software Enginee
 IEEE Transactions on Software Engineering (\textbf{TSE 2024, \textcolor{red}{\scalebox{0.8}{\emoji{trophy} }IEEE Computer Society Best Paper Award}}).
 [\href{https://arxiv.org/pdf/2301.02496}{PDF}]
 [\href{https://github.com/yangzhou6666/adversarial-backdoor-for-code-models}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of security vulnerabilities in code models.}
 }
 
-\publicationitem{\publicationlabel{pub:baffle}Chen Gong, Zhou Yang, Yunpeng Bai, Junda He, \textbf{Jieke Shi}, Kecen Li, Arunesh Sinha, Bowen Xu, Xinwen Hou, David Lo, and Tianhao Wang.
+\publicationitem{Chen Gong, Zhou Yang, Yunpeng Bai, Junda He, \textbf{Jieke Shi}, Kecen Li, Arunesh Sinha, Bowen Xu, Xinwen Hou, David Lo, and Tianhao Wang.
 \textit{``BAFFLE: Hiding Backdoors in Offline Reinforcement Learning Datasets''}.
 In Proceedings of the 45th IEEE Symposium on Security and Privacy (\textbf{S\&P 2024}, Main Track).
 [\href{https://arxiv.org/pdf/2210.04688}{PDF}]
 [\href{https://github.com/2019ChenGong/Offline_RL_Poisoner}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Conceptualization, Methodology, Validation, Writing -- review \& editing}, Supervision}
+\creditroles{Conceptualization, Methodology, Validation, Writing -- review \& editing, Supervision}
 \dissertationnote{Related work on datasets for offline reinforcement learning.}
 }
 
@@ -415,8 +388,7 @@ In Proceedings of the 45th IEEE Symposium on Security and Privacy (\textbf{S\&P 
 In Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2024}, Research Track).
 [\href{https://doi.org/10.1145/3597503.3639149}{PDF}]
 [\href{https://figshare.com/s/6d7a984f6ef797904d4b}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Methodology, Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Methodology, Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Related study in discussing diversity in controller testing.}
 }
 
@@ -425,8 +397,7 @@ In Proceedings of the 46th IEEE/ACM International Conference on Software Enginee
 In Proceedings of the 46th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2024}, Research Track).
 [\href{https://doi.org/10.1145/3597503.3639074}{PDF}]
 [\href{https://github.com/yangzhou6666/Privacy-in-Code-Models}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Data curation, Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Data curation, Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Related study in discussing other issues of code LLMs.}
 }
 
@@ -438,8 +409,7 @@ In Proceedings of the 46th IEEE/ACM International Conference on Software Enginee
 In Proceedings of the 20th IEEE/ACM International Conference on Mining Software Repositories (\textbf{MSR 2023}, Technical Papers Track).
 [\href{https://arxiv.org/pdf/2303.09795.pdf}{PDF}]
 [\href{https://github.com/soarsmu/Mining-AI-repos-issues}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Conceptualization, Methodology, Software, Data curation, Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Conceptualization, Methodology, Software, Data curation, Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Related motivation study in discussing issues of AI software.}
 }
 
@@ -450,8 +420,7 @@ In Proceedings of the 20th IEEE/ACM International Conference on Mining Software 
 \textit{``Compressing Pre-trained Models of Code into 3 MB''}.
 In Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering (\textbf{ASE 2022}, Research Track, \textbf{\textcolor{red}{\scalebox{0.8}{\emoji{military-medal}}ACM SIGSOFT Distinguished Paper Award Nomination}}, \textbf{\textcolor{red}{Top 10 Most Cited Papers in ASE 2022 Research Track}}).
 [\href{https://doi.org/10.1145/3551349.3556964}{PDF}] [\href{https://jiekeshi.github.io/pubs/ASE_2022_poster.pdf}{Poster}] [\href{https://github.com/soarsmu/Compressor}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Conceptualization, Methodology, Software, Data curation, Investigation, Formal analysis, Validation, Visualization, Writing -- original draft, \proposedrole{Writing -- review \& editing}}
+\creditroles{Conceptualization, Methodology, Software, Data curation, Investigation, Formal analysis, Validation, Visualization, Writing -- original draft, Writing -- review \& editing}
 \dissertationnote{Chapter 3.}
 }
 
@@ -461,18 +430,16 @@ In Proceedings of the 29th IEEE International Conference on Software Analysis, E
 [\href{https://arxiv.org/abs/2201.01988}{PDF}]
 [\href{https://jiekeshi.github.io/pubs/SANER_poster.pdf}{Poster}]
 [\href{https://github.com/soarsmu/CodeNLM.git}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Visualization, Writing -- original draft, \proposedrole{Writing -- review \& editing}}
+\creditroles{Conceptualization, Methodology, Software, Investigation, Formal analysis, Validation, Visualization, Writing -- original draft, Writing -- review \& editing}
 \dissertationnote{Related study in discussion of tokenization.}
 }
 
-\publicationitem{\publicationlabel{pub:rl-policies}Chen Gong, Zhou Yang, Yunpeng Bai, \textbf{Jieke Shi}, Arunesh Sinha, Bowen Xu, David Lo, Xinwen Hou, Guoliang Fan.
+\publicationitem{Chen Gong, Zhou Yang, Yunpeng Bai, \textbf{Jieke Shi}, Arunesh Sinha, Bowen Xu, David Lo, Xinwen Hou, Guoliang Fan.
 \textit{``Curiosity-Driven and Victim-Aware Adversarial Policies''}.
 In Proceedings of the 38th Annual Computer Security Applications Conference (\textbf{ACSAC 2022}, Technical Paper, \textbf{\textcolor{red}{\scalebox{0.8}{\emoji{trophy} }Honorable Mention Award}}).
 [\href{https://jiekeshi.github.io/pubs/ACSAC_2022.pdf}{PDF}]
 [\href{https://github.com/soarsmu/Curiosity_in_Adversarial_Policy}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Conceptualization, Methodology, Software, Investigation, Validation, Visualization, Writing -- original draft, \proposedrole{Writing -- review \& editing}, Supervision}
+\creditroles{Conceptualization, Methodology, Software, Investigation, Validation, Visualization, Writing -- original draft, Writing -- review \& editing, Supervision}
 \dissertationnote{Related work on adversarial policies.}
 }
 
@@ -481,8 +448,7 @@ In Proceedings of the 38th Annual Computer Security Applications Conference (\te
 In Proceedings of the 29th IEEE International Conference on Software Analysis, Evolution and Reengineering (\textbf{SANER 2022}, RENE Track).
 [\href{https://arxiv.org/abs/2201.00191}{PDF}]
 [\href{https://github.com/soarsmu/Revisiting_Neuron_Coverage.git}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Software, \proposedrole{Investigation}, Formal analysis, \proposedrole{Validation}, Visualization, \proposedrole{Writing -- review \& editing}}
+\creditroles{Software, Investigation, Formal analysis, Validation, Visualization, Writing -- review \& editing}
 \dissertationnote{Related study as background for future AI testing efforts.}
 }
 
@@ -491,8 +457,7 @@ In Proceedings of the 29th IEEE International Conference on Software Analysis, E
 In Proceedings of the 44th IEEE/ACM International Conference on Software Engineering (\textbf{ICSE 2022}, Technical Track).
 [\href{https://arxiv.org/abs/2201.08698}{PDF}]
 [\href{https://github.com/soarsmu/attack-pretrain-models-of-code.git}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Software, \proposedrole{Investigation}, Formal analysis, \proposedrole{Validation, Writing -- review \& editing}, Resources}
+\creditroles{Software, Investigation, Formal analysis, Validation, Writing -- review \& editing, Resources}
 \dissertationnote{Chapters 3 and 4 draw on the evaluation procedures used in this study.}
 }
 
@@ -501,8 +466,7 @@ In Proceedings of the 44th IEEE/ACM International Conference on Software Enginee
 In Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering (\textbf{ASE 2022}, Research Track).
 [\href{https://doi.org/10.1145/3551349.3560421}{PDF}]
 [\href{https://github.com/TechSumBot/TechSumBot}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Investigation, Data curation, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Data curation, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of answer summarization for developer questions.}
 }
 
@@ -512,8 +476,7 @@ In Proceedings of the 29th IEEE International Conference on Software Analysis, E
 [\href{https://jiekeshi.github.io/pubs/SANER_2022_2.pdf}{PDF}]
 [\href{https://github.com/jiekeshi/Bias-in-BL.git}{Code}]
 [\href{https://github.com/soarsmu/Python-Bug-Report-Dataset}{Dataset}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Software, \proposedrole{Investigation}, Formal analysis, \proposedrole{Validation, Writing -- review \& editing}}
+\creditroles{Software, Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Chapter 6 cites this study as background for future research on bug localization.}
 }
 
@@ -526,8 +489,7 @@ In Proceedings of the 36th IEEE/ACM International Conference on Automated Softwa
 [\href{https://arxiv.org/abs/2106.07413}{PDF}]
 [\href{https://jiekeshi.github.io/pubs/IncBL_poster.pdf}{Poster}]
 [\href{https://github.com/soarsmu/IncBL}{Code}] \emph{Co-first authors: Zhou Yang and Jieke Shi.}
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{Conceptualization, Methodology, Software, Data curation, Investigation, Formal analysis, Validation, Visualization, Writing -- original draft, \proposedrole{Writing -- review \& editing}}
+\creditroles{Conceptualization, Methodology, Software, Data curation, Investigation, Formal analysis, Validation, Visualization, Writing -- original draft, Writing -- review \& editing}
 \dissertationnote{Chapters 3 and 6 cite this work on interactive bug localization.}
 }
 
@@ -536,8 +498,7 @@ In Proceedings of the 36th IEEE/ACM International Conference on Automated Softwa
 In Proceedings of the 37th IEEE International Conference on Software Maintenance and Evolution (\textbf{ICSME 2021}, NIER Track).
 [\href{https://jiekeshi.github.io/pubs/BiasHeal.pdf}{PDF}]
 [\href{https://github.com/yangzhou6666/BiasFinder/tree/self-healing}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Investigation,  Software, Validation, Writing -- review \& editing}}
+\creditroles{Investigation,  Software, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of bias in sentiment analysis software.}
 }
 
@@ -546,26 +507,24 @@ In Proceedings of the 37th IEEE International Conference on Software Maintenance
 In Proceedings of the 37th IEEE International Conference on Software Maintenance and Evolution (\textbf{ICSME 2021}, NIER Track).
 [\href{https://jiekeshi.github.io/pubs/ASREvolve.pdf}{PDF}]
 [\href{https://github.com/mhilmiasyrofi/CrossASRv2}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Investigation,  Software, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation,  Software, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Chapter 6 cites this study as background for future work on testing.}
 }
 
 \Needspace{9\baselineskip}
 \section{\textbf{\uppercase{Preprints}}}
 
-\publicationitem[cvpreprint]{\publicationlabel[cvpreprint]{pre:private-code}Wenjia Jiang, \textbf{Jieke Shi}, Zhensu Sun, Chengran Yang, Shidong Pan, Peixin Zhang, Yifan Jia, James Hoang, Xiwei Xu, Zhenchang Xing, David Lo, and Zhou Yang.
+\publicationitem[cvpreprint]{Wenjia Jiang, \textbf{Jieke Shi}, Zhensu Sun, Chengran Yang, Shidong Pan, Peixin Zhang, Yifan Jia, James Hoang, Xiwei Xu, Zhenchang Xing, David Lo, and Zhou Yang.
 \textit{``Teaching Code Agents to Ask Without Leaking Private Code''}.
 arXiv preprint arXiv:2610.24824, 2026, 33 pages.
 [\href{https://arxiv.org/pdf/2610.24824}{PDF}]
 [\href{https://github.com/jwj1342/UVA}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{
-  Conceptualization, Methodology, Investigation, Validation, Writing -- review \& editing}}
+\creditroles{
+  Conceptualization, Methodology, Investigation, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of privacy in coding agents and cloud models.}
 }
 
-\publicationitem[cvpreprint]{\publicationlabel[cvpreprint]{pre:tensor-compression}\textbf{Jieke Shi}, Junda He, Wenjia Jiang, Weifeng Sun, Shidong Pan, Zhensu Sun, Chengran Yang, Peixin Zhang, Yifan Jia, Zhou Yang, Thong Hoang, Xiwei Xu, Zhenchang Xing, and David Lo.
+\publicationitem[cvpreprint]{\textbf{Jieke Shi}, Junda He, Wenjia Jiang, Weifeng Sun, Shidong Pan, Zhensu Sun, Chengran Yang, Peixin Zhang, Yifan Jia, Zhou Yang, Thong Hoang, Xiwei Xu, Zhenchang Xing, and David Lo.
 \textit{``Lossless Tensor Compression as Program Synthesis''}.
 arXiv preprint arXiv:2608.02162, 2026, 9 pages.
 [\href{https://arxiv.org/abs/2608.02162}{PDF}]
@@ -574,7 +533,7 @@ arXiv preprint arXiv:2608.02162, 2026, 9 pages.
 \dissertationnote{Extends the interest in compression to tensor data after the dissertation.}
 }
 
-\publicationitem[cvpreprint]{\publicationlabel[cvpreprint]{pre:scicodepile}Weifeng Sun, Ye Fan, Yuchen Chen, Gou Tan, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Yuan Yidi, Swee Liang Wong, Jonathan Pan, and David Lo.
+\publicationitem[cvpreprint]{Weifeng Sun, Ye Fan, Yuchen Chen, Gou Tan, \textbf{Jieke Shi (\scalebox{0.85}{\emoji{e-mail}} Corr.)}, Yuan Yidi, Swee Liang Wong, Jonathan Pan, and David Lo.
 \textit{``SciCodePile: A 128GB Corpus and Executable Benchmark for Challenging Scientific Code Generation''}.
 arXiv preprint arXiv:2607.19104, 2026, 27 pages.
 [\href{https://arxiv.org/pdf/2607.19104}{PDF}]
@@ -583,13 +542,12 @@ arXiv preprint arXiv:2607.19104, 2026, 27 pages.
 \dissertationnote{Separate work of benchmarking scientific code generation.}
 }
 
-\publicationitem[cvpreprint]{\publicationlabel[cvpreprint]{pre:agentszz}Yunbo Lyu, \textbf{Jieke Shi}, Hong Jin Kang, Ratnadira Widyasari, Junda He, Yuqing Niu, Chengran Yang, Junkai Chen, Zhou Yang, Julia Lawall, and David Lo.
+\publicationitem[cvpreprint]{Yunbo Lyu, \textbf{Jieke Shi}, Hong Jin Kang, Ratnadira Widyasari, Junda He, Yuqing Niu, Chengran Yang, Junkai Chen, Zhou Yang, Julia Lawall, and David Lo.
 \textit{``AgentSZZ: Teaching the LLM Agent to Play Detective with Bug-Inducing Commits''}.
 arXiv preprint arXiv:2604.02665, 2026, 12 pages.
 [\href{https://arxiv.org/pdf/2604.02665}{PDF}]
 [\href{https://figshare.com/articles/dataset/AgentSZZ/31869097}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Investigation, Formal analysis, Validation, Writing -- review \& editing}}
+\creditroles{Investigation, Formal analysis, Validation, Writing -- review \& editing}
 \dissertationnote{Separate repository mining study on tracing bugs.}
 }
 
@@ -598,7 +556,6 @@ arXiv preprint arXiv:2604.02665, 2026, 12 pages.
 arXiv preprint arXiv:2507.19275, 2025, 28 pages.
 [\href{https://arxiv.org/abs/2507.19275}{PDF}]
 [\href{https://github.com/sososopy/Mut4All-Artifacts}{Code}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
 \creditroles{Conceptualization, Methodology, Software, Validation, Writing -- review \& editing, Supervision}
 \dissertationnote{Separate study of compiler testing using mutators learned from bug reports.}
 }
@@ -607,8 +564,7 @@ arXiv preprint arXiv:2507.19275, 2025, 28 pages.
 \textit{``SliceMate: Accurate and Scalable Static Program Slicing via LLM-Powered Agents''}.
 arXiv preprint arXiv:2507.18957, 2025, 12 pages.
 [\href{https://arxiv.org/pdf/2507.18957}{PDF}]
-% REVIEW: Confirm the CRediT roles marked with \proposedrole for this paper.
-\creditroles{\proposedrole{Conceptualization, Investigation, Validation, Writing -- review \& editing}}
+\creditroles{Conceptualization, Investigation, Validation, Writing -- review \& editing}
 \dissertationnote{Separate study of static program slicing with LLM agents.}
 }
 
@@ -756,22 +712,22 @@ arXiv preprint arXiv:2507.18957, 2025, 12 pages.
 
 \vspace{0.5em}
 \cvitem{PhD Students}{\textbf{Yunbo Lyu}, Project: Demystifying Users' Perception on AI Coding Assistants
-\newline Led to publication~\pubref{pub:ai-assistants} (ASE 2025). Related preprint~\pubref{pre:agentszz}.}
+\newline Led to publication~[19] (ASE'25, ACM SIGSOFT Distinguished Paper Award) and preprint~[3].}
 \cvitem{}{\textbf{Huihui Huang}, Projects: issue--commit linking and memory-leak detection
-\newline Led to publications~\pubref{pub:memory-leaks} and~\pubref{pub:issue-commit}. Related joint publications~\pubref{pub:penforge} and~\pubref{pub:securevibebench}.}
+\newline Led to publications~[41] (ACSAC'26) and~[28] (ICSE'26).}
 
 \vspace{0.5em}
 \cvitem{Research Staff}{\textbf{Wenjia Jiang}. Project: privacy-preserving code agents
-\newline Led to preprint~\pubref{pre:private-code}. Related joint preprint~\pubref{pre:tensor-compression}.}
+\newline Led to preprint~[6].}
 \cvitem{}{\textbf{Xiuwei Shang}. Project: reference-free evaluation of binary reverse engineering
-\newline Led to publication~\pubref{pub:binary-eval} (ASE 2026).}
+\newline Led to publication~[37] (ASE'26).}
 \cvitem{}{\textbf{Yuqing Niu}, Project: developer practices in trusted execution environments
-\newline Led to publication~\pubref{pub:tee-practice} (SANER 2026).}
+\newline Led to publication~[33] (SANER'26, TCSE Distinguished Paper Award).}
 
 \vspace{0.5em}
 \cvitem{Visiting MSc student}{\textbf{Chen Gong}, now PhD Student at University of Virginia
 \newline Project: Testing Reinforcement Learning-based Systems
-\newline Led to publications~\pubref{pub:rl-policies} (ACSAC 2022) and~\pubref{pub:baffle} (IEEE S\&P 2024).}
+\newline Led to publications~[8] (ACSAC'22, Honorable Mention Award) and~[14] (IEEE S\&P 2024).}
 
 \vspace{0.5em}
 
@@ -789,6 +745,7 @@ arXiv preprint arXiv:2507.18957, 2025, 12 pages.
 \vspace{0.5em}
 \cvitem{Jan 2020 - Jun 2020}{\textbf{Yangzhou University}, Teaching Assistant \newline \emph{Digital Signal Processing}, Undergraduate Core Course}
 
+\Needspace{7\baselineskip}
 \section{\textbf{\uppercase{Research Grants}}}
 
 \vspace{0.5em}
